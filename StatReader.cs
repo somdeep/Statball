@@ -64,7 +64,6 @@ namespace Statball
                               where !string.IsNullOrEmpty(entry[statname])
                                     && ((string.IsNullOrEmpty(position)) || entry["_Pos"].Contains(position, StringComparison.InvariantCultureIgnoreCase))
                                     && Double.Parse(entry["_90s"]) >= minimumFilter
-                                    && 
                               orderby Per90FilteredValue(entry, statname, isp90)
                               descending
                               select entry)
