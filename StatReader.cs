@@ -94,7 +94,7 @@ namespace Statball
                               descending
                               select entry)
                      .Take(count)
-                     .Select(p => string.Concat(p.Value["_Squad"], ",", p.Value["_Pos"], ",", p.Value["_Player"], ",", Per90FilteredValue(p.Value, statname, isp90)));
+                     .Select(p => string.Concat(p.Value["_Squad"], ",", p.Value["_Comp"], ",", p.Value["_Pos"], ",", p.Value["_Player"], ",", Per90FilteredValue(p.Value, statname, isp90)));
 
             count = sortedDict.Count() - 1;
             using (StreamWriter writer = new StreamWriter(outputFile))
