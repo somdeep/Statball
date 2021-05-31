@@ -6,9 +6,9 @@ namespace Statball
     {
         public static void Main(string[] args)
         {
-            StatReader statReader = new StatReader("Resources/PlayerPossession.csv");
+            StatReader statReader = new StatReader(@"Resources\PlayerGoalAndShotCreation.csv");
             statReader.LoadStats();
-            statReader.TopPlayers("Drib_Succ", 50);
+            statReader.TopPlayers(statname: "SCA_SCA", count: 50, position: "mf", minimumFilter: 15, isp90: true);
         }
     }
 }

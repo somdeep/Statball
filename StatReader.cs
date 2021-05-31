@@ -21,6 +21,22 @@ namespace Statball
             lines.RemoveAt(0);
 
             stats = new List<Dictionary<string, string>>();
+
+            string current = string.Empty;
+            for (int i = 0; i < firstLevel.Count; i++)
+            {
+
+                if (!string.IsNullOrEmpty(firstLevel[i]))
+                {
+                    current = firstLevel[i];
+                    continue;
+                }
+
+                if (string.IsNullOrEmpty(current)) continue;
+
+                firstLevel[i] = current;
+
+            }
         }
 
         public void LoadStats()
@@ -42,16 +58,37 @@ namespace Statball
             }
         }
 
-        public void TopPlayers(string statname = "Carr_Prog", int count = 20, string outputFile = "results.txt")
+        public void TopPlayers(string statname = "Carr_Prog", int count = 20, string position = "", double minimumFilter = 20, string TeamFilter="", string LeagueFilter="", bool isp90 = false, string outputFile = "results.csv")
         {
-            IEnumerable<string> sortedDict = (from entry in stats 
-                                where !string.IsNullOrEmpty(entry[statname]) 
-                                orderby Int32.Parse(entry[statname]) 
-                                descending select entry)
+            var sortedDict = (from entry in stats
+                              where !string.IsNullOrEmpty(entry[statname])
+                                    && ((string.IsNullOrEmpty(position)) || entry["_Pos"].Contains(position, StringComparison.InvariantCultureIgnoreCase))
+                                    && Double.Parse(entry["_90s"]) >= minimumFilter
+                                    && 
+                              orderby Per90FilteredValue(entry, statname, isp90)
+                              descending
+                              select entry)
                      .Take(count)
-                     .Select(p => p["_Player"]);
+                     .Select(p => string.Concat(p["_Squad"], ",", p["_Player"], ",", Per90FilteredValue(p, statname, isp90)));
 
-            File.WriteAllLines(outputFile, sortedDict);
+            count = sortedDict.Count() - 1;
+            using (StreamWriter writer = new StreamWriter(outputFile))
+            {
+                foreach (string line in sortedDict)
+                {
+                    writer.Write(line);
+                    if (count-- > 0)
+                    {
+                        writer.WriteLine();
+                    }
+                }
+            }
+        }
+
+        public Double Per90FilteredValue(Dictionary<string, string> entry, string statname, bool isp90)
+        {
+            if (!isp90) return Double.Parse(entry[statname]);
+            else return (Double.Parse(entry[statname]) / Double.Parse(entry["_90s"]));
 
         }
     }
