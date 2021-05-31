@@ -2,6 +2,10 @@
 
 Statball - Football stats analyser from top 5 european leagues with data obtained from Fbref and Statsbomb
 
+Fbref : https://fbref.com/en/comps/Big5/Big-5-European-Leagues-Stats
+
+Statsbomb : https://statsbomb.com/
+
 1. Data Scraper/ API to pull data from fbref - using C#/webapp
 2. Preferred position filtering
 3. Combined statscore value

@@ -22,12 +22,9 @@ namespace Statball
                 lines.RemoveAt(0);
                 lines.RemoveAt(0);
 
-
-
                 string current = string.Empty;
                 for (int i = 0; i < firstLevel.Count; i++)
                 {
-
                     if (!string.IsNullOrEmpty(firstLevel[i]))
                     {
                         current = firstLevel[i];
