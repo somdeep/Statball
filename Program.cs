@@ -1,14 +1,16 @@
-﻿using System;
-
-namespace Statball
+﻿namespace Statball
 {
+    using System;
+    using System.IO;
+
     public class Program
     {
         public static void Main(string[] args)
         {
-            StatReader statReader = new StatReader(@"Resources\PlayerGoalAndShotCreation.csv");
-            statReader.LoadStats();
-            statReader.TopPlayers(statname: "SCA_SCA", count: 50, position: "mf", minimumFilter: 15, isp90: true);
+            string[] fileArray = Directory.GetFiles(@"Resources");
+            StatReader statReader = new StatReader(fileArray);
+
+            statReader.TopPlayers(statname: "Standard_Gls", count: 50, position: "", minimumFilter: 15, isp90: true);
         }
     }
 }
