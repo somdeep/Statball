@@ -88,8 +88,10 @@ namespace Statball
         {
             var sortedDict = (from entry in stats
                               where !string.IsNullOrEmpty(entry.Value[statname])
-                                    && ((string.IsNullOrEmpty(position)) || entry.Value["_Pos"].Contains(position, StringComparison.InvariantCultureIgnoreCase))
+                                    && ((string.IsNullOrEmpty(position)) || entry.Value["_Pos"].StartsWith(position, StringComparison.InvariantCultureIgnoreCase))
                                     && Double.Parse(entry.Value["_90s"]) >= minimumFilter
+                                    && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Equals(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
+                                    && ((string.IsNullOrEmpty(LeagueFilter)) || entry.Value["_Comp"].Equals(LeagueFilter, StringComparison.InvariantCultureIgnoreCase))
                               orderby Per90FilteredValue(entry.Value, statname, isp90)
                               descending
                               select entry)
@@ -126,14 +128,16 @@ namespace Statball
 
             var sortedDict = (from entry in stats
                               where !string.IsNullOrEmpty(entry.Value[statname])
-                                    && ((string.IsNullOrEmpty(position)) || entry.Value["_Pos"].Contains(position, StringComparison.InvariantCultureIgnoreCase))
+                                    && ((string.IsNullOrEmpty(position)) || entry.Value["_Pos"].StartsWith(position, StringComparison.InvariantCultureIgnoreCase))
                                     && Double.Parse(entry.Value["_90s"]) >= minimumFilter
                                     && !playerName.Equals(entry.Value["_Player"])
+                                    && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Equals(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
+                                    && ((string.IsNullOrEmpty(LeagueFilter)) || entry.Value["_Comp"].Equals(LeagueFilter, StringComparison.InvariantCultureIgnoreCase))
                               orderby CosineSimilarity(statnames, player, entry.Value, isp90)
                               ascending
                               select entry)
                      .Take(count)
-                     .Select(p => string.Concat(p.Value["_Squad"], ",", p.Value["_Comp"], ",", p.Value["_Pos"], ",", p.Value["_Player"]));
+                     .Select(p => string.Concat(p.Value["_Squad"], ",", p.Value["_Comp"], ",", p.Value["_Pos"], ",", p.Value["_Player"], ",", CosineSimilarity(statnames, player, p.Value, isp90)));
 
             count = sortedDict.Count() - 1;
             using (StreamWriter writer = new StreamWriter(outputFile))
@@ -178,5 +182,6 @@ namespace Statball
 
             return similarity;
         }
+
     }
 }
