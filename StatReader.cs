@@ -153,8 +153,8 @@ namespace Statball
         {
             double similarity = 0.0;
             double dotProduct = 0.0;
-            double l2norm1 = 0.0;
-            double l2norm2 = 0.0;
+            double playerNorm = 0.0;
+            double potentialNorm = 0.0;
 
             List<double> playerList = new List<double>();
             List<double> potentialList = new List<double>();
@@ -169,13 +169,12 @@ namespace Statball
             for (int i = 0; i < playerList.Count; i++)
             {
                 dotProduct += playerList[i] * potentialList[i];
-                l2norm1 += playerList[i] * playerList[i];
-                l2norm2 += potentialList[i] * potentialList[i];
+                playerNorm += playerList[i] * playerList[i];
+                potentialNorm += potentialList[i] * potentialList[i];
             }
 
-            double cos = dotProduct / (Math.Sqrt(l2norm1) * Math.Sqrt(l2norm2));
+            double cos = dotProduct / (Math.Sqrt(playerNorm) * Math.Sqrt(potentialNorm));
             similarity = Math.Acos(cos) * 180.0 / Math.PI;
-
 
             return similarity;
         }
