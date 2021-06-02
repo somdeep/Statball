@@ -12,3 +12,4 @@ Statsbomb : https://statsbomb.com/
 4. Multi resource file processing - for combined statscore value as well
 5. Clustering based talent identification
 6. Performance/Role analysis
+7. Similarity analysis for position/player using Cosine/other similarity  - vector/array based

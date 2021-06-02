@@ -1,0 +1,10 @@
+Tackles_TklW
+Pressures_Succ
+Vs Dribbles_Past
+Total_PrgDist
+Total_Cmp%
+Carries_Prog
+Expected_xA
+Blocks_Int
+Long_Prog
+Long_1/3

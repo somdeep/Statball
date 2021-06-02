@@ -10,7 +10,8 @@
             string[] fileArray = Directory.GetFiles(@"Resources");
             StatReader statReader = new StatReader(fileArray);
 
-            statReader.TopPlayers(statname: "Tackles_Mid 3rd", count: 50, position: "MF", minimumFilter: 20, isp90: true);
+            statReader.TopPlayers(statname: "Blocks_Int", count: 50, position: "MF", minimumFilter: 20, isp90: true);
+            statReader.SimilarPlayers(File.ReadAllLines("Profiles/DM.txt"), playerName: @"Wilfred Ndidi\Wilfred-Ndidi", count: 30, position: "MF", minimumFilter: 20, isp90: true);
         }
     }
 }
