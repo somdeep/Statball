@@ -124,6 +124,7 @@ namespace Statball
         public void SimilarPlayers(string[] statnames, string playerName = @"Wilfred Ndidi\Wilfred-Ndidi", int count = 20, string position = "", double minimumFilter = 20, string TeamFilter = "", string LeagueFilter = "", bool isp90 = false, string outputFile = "similarresults.csv")
         {
             string statname = statnames[0];
+            playerName = PickFirstMatchingPlayer(playerName);
             Dictionary<string, string> player = stats[playerName];
 
             var sortedDict = (from entry in stats
@@ -181,6 +182,13 @@ namespace Statball
             similarity = Math.Acos(cos) * 180.0 / Math.PI;
 
             return similarity;
+        }
+
+        public string PickFirstMatchingPlayer(string playerName)
+        {
+            string name = string.Empty;
+            name = stats.Keys.First(n => n.Contains(playerName, StringComparison.InvariantCultureIgnoreCase));
+            return name;
         }
 
     }
