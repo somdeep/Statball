@@ -121,7 +121,7 @@ namespace Statball
             }
         }
 
-        public void TopPlayers(string statname = "Carries_Prog", int count = 20, string position = "", double minimumFilter = 20, string TeamFilter = "", string LeagueFilter = "", string outputFile = "results.csv")
+        public void TopPlayers(string statname = "Carries_Prog", int count = 20, string position = "", double minimumFilter = 20, string TeamFilter = "", string LeagueFilter = "", double ageFilter = 99, string outputFile = "results.csv")
         {
             var sortedDict = (from entry in stats
                               where !string.IsNullOrEmpty(entry.Value[statname])
@@ -129,6 +129,7 @@ namespace Statball
                                     && Double.Parse(entry.Value["_90s"]) >= minimumFilter
                                     && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Contains(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
                                     && ((string.IsNullOrEmpty(LeagueFilter)) || entry.Value["_Comp"].Contains(LeagueFilter, StringComparison.InvariantCultureIgnoreCase))
+                                    && Double.Parse(entry.Value["_Age"]) <= ageFilter
                               orderby Per90FilteredValue(entry.Value, statname)
                               descending
                               select entry)
@@ -176,7 +177,7 @@ namespace Statball
 
         }
 
-        public void SimilarPlayers(string[] statnames, string playerName = @"Wilfred Ndidi\Wilfred-Ndidi", int count = 20, string position = "", double minimumFilter = 20, string TeamFilter = "", string LeagueFilter = "", string outputFile = "similarresults.csv")
+        public void SimilarPlayers(string[] statnames, string playerName = @"Wilfred Ndidi\Wilfred-Ndidi", int count = 20, string position = "", double minimumFilter = 20, string TeamFilter = "", string LeagueFilter = "", double ageFilter = 99, string outputFile = "similarresults.csv")
         {
             playerName = PickFirstMatchingPlayer(playerName);
             Dictionary<string, string> player = stats[playerName];
@@ -187,6 +188,7 @@ namespace Statball
                                     && !playerName.Equals(entry.Value["_Player"])
                                     && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Contains(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
                                     && ((string.IsNullOrEmpty(LeagueFilter)) || entry.Value["_Comp"].Contains(LeagueFilter, StringComparison.InvariantCultureIgnoreCase))
+                                    && Double.Parse(entry.Value["_Age"]) <= ageFilter
                               orderby CosineSimilarity(statnames, player, entry.Value)
                               ascending
                               select entry)
@@ -247,7 +249,7 @@ namespace Statball
             return name;
         }
 
-        public void ScoutPlayer(string[] statnames, string playerName = @"", int count = 20, string position = "", double minimumFilter = 20, string TeamFilter = "", string LeagueFilter = "", double ageFilter = 50, string outputFile = "scoutresults.csv")
+        public void ScoutPlayer(string[] statnames, string playerName = @"", int count = 20, string position = "", double minimumFilter = 20, string TeamFilter = "", string LeagueFilter = "", double ageFilter = 99, string outputFile = "scoutresults.csv")
         {
             LoadMaxStats(minimumFilter);
             playerName = PickFirstMatchingPlayer(playerName);
@@ -260,6 +262,7 @@ namespace Statball
                                     && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Contains(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
                                     && ((string.IsNullOrEmpty(LeagueFilter)) || entry.Value["_Comp"].Contains(LeagueFilter, StringComparison.InvariantCultureIgnoreCase))
                                     && Double.Parse(entry.Value["_Age"]) <= ageFilter
+                                    && ComputedScore(statnames, player, entry.Value) >= 0.0
                               orderby ComputedScore(statnames, player, entry.Value)
                               descending
                               select entry)
