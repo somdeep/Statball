@@ -1,0 +1,15 @@
+Tackles_TklW
+Pressures_Succ
+Vs Dribbles_Past
+Total_PrgDist
+Total_Cmp%
+Carries_Prog
+Expected_xA
+Blocks_Int
+Long_Prog
+Long_1/3
+SCA_SCA
+Blocks_Blocks
+Dribbles_Succ
+Carries_PrgDist
+Expected_npxG
