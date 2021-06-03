@@ -8,10 +8,11 @@
         public static void Main(string[] args)
         {
             string[] fileArray = Directory.GetFiles(@"Resources");
-            StatReader statReader = new StatReader(fileArray);
+            StatReader statReader = new StatReader(fileArray, true);
 
-            statReader.TopPlayers(statname: "Blocks_Int", count: 20, position: "MF", minimumFilter: 20, isp90: true);
-            statReader.SimilarPlayers(File.ReadAllLines("Profiles/DM.txt"), playerName: @"Pogba", count: 20, position: "MF", LeagueFilter: "", minimumFilter: 20, isp90: true);
+            statReader.TopPlayers(statname: "Blocks_Int", count: 30, position: "MF", minimumFilter: 20);
+            statReader.SimilarPlayers(File.ReadAllLines("Profiles/CM.txt"), playerName: @"Pogba", count: 30, position: "MF", LeagueFilter: "", minimumFilter: 20);
+            statReader.ScoutPlayer(File.ReadAllLines("Profiles/CM.txt"), playerName: "pogba", count: 30, position: "MF", LeagueFilter: "", TeamFilter: "", ageFilter: 23, minimumFilter: 20);
         }
     }
 }
