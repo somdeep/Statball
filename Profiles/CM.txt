@@ -1,8 +1,7 @@
 Tackles_TklW
 Pressures_Succ
-Vs Dribbles_Tkl%
 Total_PrgDist
-Total_Cmp%
+Total_Cmp
 Carries_Prog
 Expected_xA
 Blocks_Int
@@ -12,3 +11,4 @@ SCA_SCA
 Dribbles_Succ
 Carries_PrgDist
 Expected_npxG
+Carries_1/3

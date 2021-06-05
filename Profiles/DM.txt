@@ -1,10 +1,16 @@
 Tackles_TklW
 Pressures_Succ
-Vs Dribbles_Tkl%
+Vs Dribbles_Tkl
 Total_PrgDist
-Total_Cmp%
+Total_Cmp
 Carries_Prog
 Blocks_Int
 Long_Prog
 Long_1/3
 Blocks_Blocks
+Blocks_Sh
+Pressures_Def 3rd
+Blocks_Clr
+Performance_Recov
+Aerial Duels_Won
+Carries_PrgDist
