@@ -7,6 +7,9 @@
     {
         public static void Main(string[] args)
         {
+            // Scraper scraper = new Scraper();
+            // scraper.Scrape();
+
             string[] fileArray = Directory.GetFiles(@"Resources");
             StatReader statReader = new StatReader(fileArray, isp90: true);
 

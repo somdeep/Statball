@@ -5,4 +5,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="csvhelper" Version="27.1.1" />
+    <PackageReference Include="htmlagilitypack" Version="1.11.34" />
+  </ItemGroup>
+
 </Project>
