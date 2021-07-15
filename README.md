@@ -13,3 +13,8 @@ Statsbomb : https://statsbomb.com/
 5. Clustering based talent identification
 6. Performance/Role analysis
 7. Similarity analysis for position/player using Cosine/other similarity  - vector/array based
+
+
+**Sample** : Top 20 CM profile players from EPL under or at the age of 30.
+
+![image](https://user-images.githubusercontent.com/14120777/125809221-963ebdea-c7b0-4503-ba2c-63d451525c1a.png)
