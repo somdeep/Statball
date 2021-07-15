@@ -8,7 +8,7 @@
         public static void Main(string[] args)
         {
             string[] fileArray = Directory.GetFiles(@"Resources");
-            StatReader statReader = new StatReader(fileArray, true);
+            StatReader statReader = new StatReader(fileArray, isp90: true);
 
             statReader.TopPlayers(statname: "Blocks_Int", count: 30, position: "MF", minimumFilter: 20);
             statReader.SimilarPlayers(File.ReadAllLines("Profiles/CM.txt"), playerName: "camavinga", count: 30, position: "MF", LeagueFilter: "eng", minimumFilter: 20);
