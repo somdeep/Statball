@@ -50,7 +50,7 @@ namespace Statball
             foreach (string line in lines)
             {
                 if(string.IsNullOrEmpty(line)) continue;
-                
+
                 string[] parts = line.Split(',');
                 string playerKey = string.Empty;
                 int partCount = 0;
@@ -141,6 +141,7 @@ namespace Statball
             count = sortedDict.Count() - 1;
             using (StreamWriter writer = new StreamWriter(outputFile))
             {
+                writer.WriteLine("Club,League,Position,Player,Statscore");
                 foreach (string line in sortedDict)
                 {
                     writer.Write(line);
@@ -200,6 +201,7 @@ namespace Statball
             count = sortedDict.Count() - 1;
             using (StreamWriter writer = new StreamWriter(outputFile))
             {
+                writer.WriteLine("Club,League,Position,Player,Statscore");
                 foreach (string line in sortedDict)
                 {
                     writer.Write(line);
@@ -274,6 +276,7 @@ namespace Statball
             count = sortedDict.Count() - 1;
             using (StreamWriter writer = new StreamWriter(outputFile))
             {
+                writer.WriteLine("Club,League,Position,Player,Statscore");
                 foreach (string line in sortedDict)
                 {
                     writer.Write(line);
