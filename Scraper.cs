@@ -28,10 +28,34 @@ namespace Statball
 
             List<string> headerNames = doc.DocumentNode.SelectNodes($"//table[@id='stats_{statname}']//thead//tr")[1].ChildNodes.Where(n => n.Name == "th").Select(child => child.InnerText).ToList();
 
-            headerNames.Remove("Matches");
-            columnSpans.RemoveAt(columnSpans.Count - 1);
-            overHeaderNames.RemoveAt(overHeaderNames.Count - 1);
+            int count = 0;
+            using (StreamWriter writer = new StreamWriter("output.txt"))
+            {
+                foreach (string name in overHeaderNames)
+                {
+                    int span = columnSpans[count++];
+                    writer.Write(name + ",");
+                    for (int i = 1; i < span; i++)
+                    {
+                        if (count == overHeaderNames.Count - 1 && i == span - 1) continue;
 
+                        writer.Write(",");
+                    }
+                }
+
+                writer.WriteLine();
+
+                count = headerNames.Count - 1;
+                foreach (string name in headerNames)
+                {
+                    if (count > 0) writer.Write(name + ",");
+                    else writer.Write(name);
+
+                    count--;
+                }
+
+                writer.WriteLine();
+            }
 
         }
     }
