@@ -10,12 +10,14 @@ namespace Statball
 
     public class Scraper
     {
-        public void Scrape()
+        public void Scrape(string statname = "passing")
         {
-            string statname = "shooting";
             HtmlWeb web = new HtmlWeb();
             HtmlDocument doc = web.Load($"https://fbref.com/en/comps/Big5/{statname}/players/Big-5-European-Leagues-Stats");
 
+
+            if(statname == "stats") statname = "standard";
+            
             List<string> overHeaderNames = doc.DocumentNode.SelectNodes($"//table[@id='stats_{statname}']//thead//tr")[0].ChildNodes.Where(n => n.Name == "th").Select(child => child.InnerText).ToList();
 
             List<int> columnSpans = new List<int>();
@@ -28,8 +30,10 @@ namespace Statball
 
             List<string> headerNames = doc.DocumentNode.SelectNodes($"//table[@id='stats_{statname}']//thead//tr")[1].ChildNodes.Where(n => n.Name == "th").Select(child => child.InnerText).ToList();
 
+            List<HtmlNodeCollection> playerNodes = doc.DocumentNode.SelectNodes($"//table[@id='stats_{statname}']//tbody//tr").Select(node => node.ChildNodes).ToList();
+
             int count = 0;
-            using (StreamWriter writer = new StreamWriter("output.txt"))
+            using (StreamWriter writer = new StreamWriter($"ScrapedResources/Player_{statname}.csv"))
             {
                 foreach (string name in overHeaderNames)
                 {
@@ -55,13 +59,32 @@ namespace Statball
                 }
 
                 writer.WriteLine();
+                count = playerNodes.Count - 1;
+                foreach (var playerNode in playerNodes)
+                {
+                    string firstNode = playerNode.Nodes().First().InnerText;
+                    if (firstNode == "Rk") continue;
+
+                    foreach (var node in playerNode)
+                    {
+
+                        if (node.InnerText == "Matches") writer.Write(node.InnerText);
+
+                        else
+                        {
+                            string value = node.Attributes.Where(n => n.Name == "data-stat").First().Value;
+
+                            if (value == "position") writer.Write(node.InnerText.Replace(",", "") + ",");
+                            else writer.Write(node.InnerText + ",");
+                        }
+                    }
+
+                    count--;
+                    if (count > 2) writer.WriteLine();
+                }
             }
 
         }
     }
 
-    public class Row
-    {
-        public string Title { get; set; }
-    }
 }

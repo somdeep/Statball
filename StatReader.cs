@@ -49,6 +49,8 @@ namespace Statball
         {
             foreach (string line in lines)
             {
+                if(string.IsNullOrEmpty(line)) continue;
+                
                 string[] parts = line.Split(',');
                 string playerKey = string.Empty;
                 int partCount = 0;

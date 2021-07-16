@@ -7,10 +7,20 @@
     {
         public static void Main(string[] args)
         {
-            // Scraper scraper = new Scraper();
-            // scraper.Scrape();
+            string[] statNames = { "passing", "shooting", "passing_types", "gca", "defense", "possession", "misc", "stats" };
+            // "playingtime", "keepers","keepersadv"};
+            
+            string[] scrapedFiles = Directory.GetFiles(@"ScrapedResources");
+            if (scrapedFiles.Length < statNames.Length)
+            {
+                Scraper scraper = new Scraper();
+                foreach (string statname in statNames)
+                {
+                    scraper.Scrape(statname);
+                }
+            }
 
-            string[] fileArray = Directory.GetFiles(@"Resources");
+            string[] fileArray = Directory.GetFiles(@"ScrapedResources");
             StatReader statReader = new StatReader(fileArray, isp90: true);
 
             statReader.TopPlayers(statname: "Blocks_Int", count: 30, position: "MF", minimumFilter: 20);
