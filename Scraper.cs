@@ -16,8 +16,8 @@ namespace Statball
             HtmlDocument doc = web.Load($"https://fbref.com/en/comps/Big5/{statname}/players/Big-5-European-Leagues-Stats");
 
 
-            if(statname == "stats") statname = "standard";
-            
+            if (statname == "stats") statname = "standard";
+
             List<string> overHeaderNames = doc.DocumentNode.SelectNodes($"//table[@id='stats_{statname}']//thead//tr")[0].ChildNodes.Where(n => n.Name == "th").Select(child => child.InnerText).ToList();
 
             List<int> columnSpans = new List<int>();
