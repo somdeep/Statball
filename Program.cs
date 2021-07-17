@@ -56,6 +56,7 @@
             squadReader.TopSquads(outputFile: "Results/TopSquads.csv");
             squadReader.SimilarSquads(File.ReadAllLines("Profiles/Squad_CreativeMiddle.txt"), squadName: "Manchester Utd", count: 5);
             squadReader.ScoutSquad(File.ReadAllLines("Profiles/Squad_CreativeMiddle.txt"));
+            squadReader.GenerateTableauData(File.ReadAllLines("Profiles/Squad_CreativeMiddle.txt"), count: 100);
 
         }
     }
