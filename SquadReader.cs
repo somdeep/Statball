@@ -125,7 +125,7 @@ namespace Statball
             }
         }
 
-        public void TopSquads(string statname = "Carries_Prog", int count = 20, double minimumFilter = 0, string LeagueFilter = "", string outputFile = "results.csv")
+        public void TopSquads(string statname = "Carries_Prog", int count = 20, double minimumFilter = 0, string LeagueFilter = "", string outputFile = "Results/TopSquads.csv")
         {
             var sortedDict = (from entry in stats
                               where !string.IsNullOrEmpty(entry.Value[statname])
@@ -179,28 +179,25 @@ namespace Statball
 
         }
 
-        public void SimilarPlayers(string[] statnames, string playerName = @"Wilfred Ndidi\Wilfred-Ndidi", int count = 20, string position = "", double minimumFilter = 20, string TeamFilter = "", string LeagueFilter = "", double ageFilter = 99, string outputFile = "similarresults.csv")
+        public void SimilarSquads(string[] statnames, string squadName = @"Manchester Utd", int count = 20, double minimumFilter = 0, string LeagueFilter = "", string outputFile = "Results/SimilarSquads.csv")
         {
-            playerName = PickFirstMatchingPlayer(playerName);
-            Dictionary<string, string> player = stats[playerName];
+            squadName = PickFirstMatchingSquad(squadName);
+            Dictionary<string, string> squad = stats[squadName];
 
             var sortedDict = (from entry in stats
-                              where ((string.IsNullOrEmpty(position)) || entry.Value["_Pos"].StartsWith(position, StringComparison.InvariantCultureIgnoreCase))
-                                    && Double.Parse(entry.Value["_90s"]) >= minimumFilter
-                                    && !playerName.Equals(entry.Value["_Player"])
-                                    && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Contains(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
+                              where Double.Parse(entry.Value["_90s"]) >= minimumFilter
+                                    && !squadName.Equals(entry.Value["_Squad"])
                                     && ((string.IsNullOrEmpty(LeagueFilter)) || entry.Value["_Comp"].Contains(LeagueFilter, StringComparison.InvariantCultureIgnoreCase))
-                                    && Double.Parse(entry.Value["_Age"]) <= ageFilter
-                              orderby CosineSimilarity(statnames, player, entry.Value)
+                              orderby CosineSimilarity(statnames, squad, entry.Value)
                               ascending
                               select entry)
                      .Take(count)
-                     .Select(p => string.Concat(p.Value["_Squad"], ",", p.Value["_Comp"], ",", p.Value["_Pos"], ",", p.Value["_Player"], ",", CosineSimilarity(statnames, player, p.Value)));
+                     .Select(p => string.Concat(p.Value["_Comp"], ",", p.Value["_Squad"], ",", CosineSimilarity(statnames, squad, p.Value)));
 
             count = sortedDict.Count() - 1;
             using (StreamWriter writer = new StreamWriter(outputFile))
             {
-                writer.WriteLine("Club,League,Position,Player,Statscore");
+                writer.WriteLine("League,Club,Statscore");
                 foreach (string line in sortedDict)
                 {
                     writer.Write(line);
@@ -212,71 +209,68 @@ namespace Statball
             }
         }
 
-        public Double CosineSimilarity(string[] statnames, Dictionary<string, string> player, Dictionary<string, string> entry)
+        public Double CosineSimilarity(string[] statnames, Dictionary<string, string> squad, Dictionary<string, string> entry)
         {
             double similarity = 0.0;
             double dotProduct = 0.0;
-            double playerNorm = 0.0;
+            double squadNorm = 0.0;
             double potentialNorm = 0.0;
 
-            List<double> playerList = new List<double>();
+            List<double> squadList = new List<double>();
             List<double> potentialList = new List<double>();
 
             foreach (string statname in statnames)
             {
 
-                playerList.Add(Per90FilteredValue(player, statname));
+                squadList.Add(Per90FilteredValue(squad, statname));
                 potentialList.Add(Per90FilteredValue(entry, statname));
             }
 
-            for (int i = 0; i < playerList.Count; i++)
+            for (int i = 0; i < squadList.Count; i++)
             {
-                dotProduct += playerList[i] * potentialList[i];
-                playerNorm += playerList[i] * playerList[i];
+                dotProduct += squadList[i] * potentialList[i];
+                squadNorm += squadList[i] * squadList[i];
                 potentialNorm += potentialList[i] * potentialList[i];
             }
 
-            double cos = dotProduct / (Math.Sqrt(playerNorm) * Math.Sqrt(potentialNorm));
+            double cos = dotProduct / (Math.Sqrt(squadNorm) * Math.Sqrt(potentialNorm));
             similarity = Math.Acos(cos) * 180.0 / Math.PI;
 
             return similarity;
         }
 
-        public string PickFirstMatchingPlayer(string playerName)
+        public string PickFirstMatchingSquad(string squadName)
         {
             string name = string.Empty;
 
-            if (string.IsNullOrEmpty(playerName)) return string.Empty;
+            if (string.IsNullOrEmpty(squadName)) return string.Empty;
 
-            name = stats.Keys.First(n => n.Contains(playerName, StringComparison.InvariantCultureIgnoreCase));
+            name = stats.Keys.First(n => n.Contains(squadName, StringComparison.InvariantCultureIgnoreCase));
 
             return name;
         }
 
-        public void ScoutPlayer(string[] statnames, string playerName = @"", int count = 20, string position = "", double minimumFilter = 20, string TeamFilter = "", string LeagueFilter = "", double ageFilter = 99, string outputFile = "scoutresults.csv")
+        public void ScoutSquad(string[] statnames, string squadName = @"", int count = 20, double minimumFilter = 0, string LeagueFilter = "", string outputFile = "Results/ScoutedTeams.csv")
         {
             LoadMaxStats(minimumFilter);
-            playerName = PickFirstMatchingPlayer(playerName);
-            Dictionary<string, string> player = (string.IsNullOrEmpty(playerName)) ? null : stats[playerName];
+            squadName = PickFirstMatchingSquad(squadName);
+            Dictionary<string, string> squad = (string.IsNullOrEmpty(squadName)) ? null : stats[squadName];
 
             var sortedDict = (from entry in stats
-                              where ((string.IsNullOrEmpty(position)) || entry.Value["_Pos"].Contains(position, StringComparison.InvariantCultureIgnoreCase))
-                                    && Double.Parse(entry.Value["_90s"]) >= minimumFilter
-                                    && !playerName.Equals(entry.Value["_Player"])
-                                    && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Contains(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
+                              where Double.Parse(entry.Value["_90s"]) >= minimumFilter
+                                    && !squadName.Equals(entry.Value["_Squad"])
                                     && ((string.IsNullOrEmpty(LeagueFilter)) || entry.Value["_Comp"].Contains(LeagueFilter, StringComparison.InvariantCultureIgnoreCase))
-                                    && Double.Parse(entry.Value["_Age"]) <= ageFilter
-                                    && ComputedScore(statnames, player, entry.Value) >= 0.0
-                              orderby ComputedScore(statnames, player, entry.Value)
+                                    && ComputedScore(statnames, squad, entry.Value) >= 0.0
+                              orderby ComputedScore(statnames, squad, entry.Value)
                               descending
                               select entry)
                      .Take(count)
-                     .Select(p => string.Concat(p.Value["_Squad"], ",", p.Value["_Comp"], ",", p.Value["_Pos"], ",", p.Value["_Player"], ",", ComputedScore(statnames, player, p.Value)));
+                     .Select(p => string.Concat(p.Value["_Comp"], ",", p.Value["_Squad"], ",", ComputedScore(statnames, squad, p.Value)));
 
             count = sortedDict.Count() - 1;
             using (StreamWriter writer = new StreamWriter(outputFile))
             {
-                writer.WriteLine("Club,League,Position,Player,Statscore");
+                writer.WriteLine("League,Club,Statscore");
                 foreach (string line in sortedDict)
                 {
                     writer.Write(line);
@@ -288,41 +282,38 @@ namespace Statball
             }
         }
 
-        public Double ComputedScore(string[] statnames, Dictionary<string, string> player, Dictionary<string, string> entry)
+        public Double ComputedScore(string[] statnames, Dictionary<string, string> squad, Dictionary<string, string> entry)
         {
-            double playerScore = 0.0;
+            double squadScore = 0.0;
             double potentialScore = 0.0;
 
-            List<double> playerList = new List<double>();
+            List<double> squadList = new List<double>();
             List<double> potentialList = new List<double>();
 
             foreach (string statname in statnames)
             {
-                if (player != null) playerScore += (Per90FilteredValue(player, statname) / maxStats[statname]);
+                if (squad != null) squadScore += (Per90FilteredValue(squad, statname) / maxStats[statname]);
 
                 potentialScore += (Per90FilteredValue(entry, statname) / maxStats[statname]);
             }
 
-            potentialScore = potentialScore - playerScore;
+            potentialScore = potentialScore - squadScore;
 
             return potentialScore;
         }
 
-        public void GenerateTableauData(string[] statnames, string playerName = @"", int count = 20, string position = "", double minimumFilter = 20, string TeamFilter = "", string LeagueFilter = "", double ageFilter = 99, string outputFile = "tableauresults.csv")
+        public void GenerateTableauData(string[] statnames, string squadName = @"", int count = 20, double minimumFilter = 20, string LeagueFilter = "", string outputFile = "Results/TableauSquads.csv")
         {
             LoadMaxStats(minimumFilter);
-            playerName = PickFirstMatchingPlayer(playerName);
-            Dictionary<string, string> player = (string.IsNullOrEmpty(playerName)) ? null : stats[playerName];
+            squadName = PickFirstMatchingSquad(squadName);
+            Dictionary<string, string> squad = (string.IsNullOrEmpty(squadName)) ? null : stats[squadName];
 
             var sortedDict = (from entry in stats
-                              where ((string.IsNullOrEmpty(position)) || entry.Value["_Pos"].Contains(position, StringComparison.InvariantCultureIgnoreCase))
-                                    && Double.Parse(entry.Value["_90s"]) >= minimumFilter
-                                    && !playerName.Equals(entry.Value["_Player"])
-                                    && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Contains(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
+                              where Double.Parse(entry.Value["_90s"]) >= minimumFilter
+                                    && !squadName.Equals(entry.Value["_Squad"])
                                     && ((string.IsNullOrEmpty(LeagueFilter)) || entry.Value["_Comp"].Contains(LeagueFilter, StringComparison.InvariantCultureIgnoreCase))
-                                    && Double.Parse(entry.Value["_Age"]) <= ageFilter
-                                    && ComputedScore(statnames, player, entry.Value) >= 0.0
-                              orderby ComputedScore(statnames, player, entry.Value)
+                                    && ComputedScore(statnames, squad, entry.Value) >= 0.0
+                              orderby ComputedScore(statnames, squad, entry.Value)
                               descending
                               select entry)
                      .Take(count);
@@ -330,7 +321,7 @@ namespace Statball
             count = sortedDict.Count() - 1;
             using (StreamWriter writer = new StreamWriter(outputFile))
             {
-                writer.Write("Player");
+                writer.Write("Squad");
 
                 foreach (string statname in statnames)
                 {
@@ -341,13 +332,13 @@ namespace Statball
 
                 foreach (var line in sortedDict)
                 {
-                    var linePlayer = line.Value;
+                    var linesquad = line.Value;
 
-                    writer.Write(linePlayer["_Player"]);
+                    writer.Write(linesquad["_Squad"]);
 
                     foreach (string statname in statnames)
                     {
-                        writer.Write("," + linePlayer[statname]);
+                        writer.Write("," + linesquad[statname]);
                     }
 
                     if (count-- > 0)

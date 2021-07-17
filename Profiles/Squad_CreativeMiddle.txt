@@ -1,0 +1,17 @@
+_Poss
+Total_Cmp
+Expected_xA
+Long_Prog
+Long_1/3
+Long_PPA
+Long_KP
+SCA_SCA
+GCA_GCA
+Dribbles_Succ
+Expected_npxG
+Carries_1/3
+Carries_CPA
+Touches_Att 3rd
+Touches_Att Pen
+Standard_SoT
+GCA Types_Drib

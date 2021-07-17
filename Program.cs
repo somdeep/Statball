@@ -54,6 +54,8 @@
             SquadReader squadReader = new SquadReader(fileArray, isp90:true);
 
             squadReader.TopSquads(outputFile:"Results/TopSquads.csv");
+            squadReader.SimilarSquads(File.ReadAllLines("Profiles/Squad_CreativeMiddle.txt"), squadName : "Manchester Utd", count:5);
+            squadReader.ScoutSquad(File.ReadAllLines("Profiles/Squad_CreativeMiddle.txt"));
 
         }
     }
