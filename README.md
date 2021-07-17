@@ -15,6 +15,10 @@ Statsbomb : https://statsbomb.com/
 7. Similarity analysis for position/player using Cosine/other similarity  - vector/array based
 8. Player scouting based on customisable player profiles and statscore based scouting.
 
+**Visualizations** : Defensive Actions, Manchester United (19/20, stats p90)
+![Defensive Actions p90](https://user-images.githubusercontent.com/14120777/126045220-a6e72a81-ef2f-4d3b-8b1b-d1b18cf47350.png)
+
+
 **Sample 1** : Top 30 AM profile players from top 5 leagues (20/21, stats p90, minimum 20 90s)
 
 ![image](https://user-images.githubusercontent.com/14120777/126031154-3a13b672-dcb2-4dbf-9be7-5dae79295205.png)
@@ -23,3 +27,4 @@ Statsbomb : https://statsbomb.com/
 **Sample 2** : Top 20 CM profile players from EPL under or at the age of 30 (20/21, stats p90, minimum 20 90s).
 
 ![image](https://user-images.githubusercontent.com/14120777/126031086-44781317-889b-48c0-ae0c-56a7a881dc8c.png)
+
