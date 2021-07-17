@@ -74,7 +74,7 @@ namespace Statball
                         {
                             string value = node.Attributes.Where(n => n.Name == "data-stat").First().Value;
 
-                            if (value == "position") writer.Write(node.InnerText.Replace(",", "") + ",");
+                            if (value == "position" || value == "minutes") writer.Write(node.InnerText.Replace(",", "") + ",");
                             else writer.Write(node.InnerText + ",");
                         }
                     }
