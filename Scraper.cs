@@ -149,17 +149,14 @@ namespace Statball
 
                         else
                         {
-                            string value = node.Attributes.Where(n => n.Name == "data-stat").First().Value;
-
-                            if (value == "position") writer.Write(node.InnerText.Replace(",", "") + ",");
-                            else writer.Write(node.InnerText + ",");
+                            writer.Write(node.InnerText.Replace(",", "") + ",");
                         }
 
                         nodeCount--;
                     }
 
                     count--;
-                    if (count > 2) writer.WriteLine();
+                    if (count >= 0) writer.WriteLine();
                 }
             }
 
