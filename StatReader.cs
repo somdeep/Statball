@@ -250,7 +250,7 @@ namespace Statball
             if (string.IsNullOrEmpty(playerName)) return string.Empty;
 
             name = stats.Keys.First(n => n.Contains(playerName, StringComparison.InvariantCultureIgnoreCase));
-            
+
             return name;
         }
 
@@ -307,6 +307,57 @@ namespace Statball
             potentialScore = potentialScore - playerScore;
 
             return potentialScore;
+        }
+
+        public void GenerateTableauData(string[] statnames, string playerName = @"", int count = 20, string position = "", double minimumFilter = 20, string TeamFilter = "", string LeagueFilter = "", double ageFilter = 99, string outputFile = "tableauresults.csv")
+        {
+            LoadMaxStats(minimumFilter);
+            playerName = PickFirstMatchingPlayer(playerName);
+            Dictionary<string, string> player = (string.IsNullOrEmpty(playerName)) ? null : stats[playerName];
+
+            var sortedDict = (from entry in stats
+                              where ((string.IsNullOrEmpty(position)) || entry.Value["_Pos"].Contains(position, StringComparison.InvariantCultureIgnoreCase))
+                                    && Double.Parse(entry.Value["_90s"]) >= minimumFilter
+                                    && !playerName.Equals(entry.Value["_Player"])
+                                    && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Contains(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
+                                    && ((string.IsNullOrEmpty(LeagueFilter)) || entry.Value["_Comp"].Contains(LeagueFilter, StringComparison.InvariantCultureIgnoreCase))
+                                    && Double.Parse(entry.Value["_Age"]) <= ageFilter
+                                    && ComputedScore(statnames, player, entry.Value) >= 0.0
+                              orderby ComputedScore(statnames, player, entry.Value)
+                              descending
+                              select entry)
+                     .Take(count);
+
+            count = sortedDict.Count() - 1;
+            using (StreamWriter writer = new StreamWriter(outputFile))
+            {
+                writer.Write("Player");
+
+                foreach (string statname in statnames)
+                {
+                    writer.Write("," + statname);
+                }
+
+                writer.WriteLine();
+
+                foreach (var line in sortedDict)
+                {
+                    var linePlayer = line.Value;
+
+                    writer.Write(linePlayer["_Player"]);
+
+                    foreach (string statname in statnames)
+                    {
+                        writer.Write("," + linePlayer[statname]);
+                    }
+
+                    if (count-- > 0)
+                    {
+                        writer.WriteLine();
+                    }
+                }
+            }
+
         }
 
     }
