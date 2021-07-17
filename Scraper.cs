@@ -10,7 +10,7 @@ namespace Statball
 
     public class Scraper
     {
-        public void Scrape(string statname = "passing")
+        public void PlayerScrape(string statname = "passing")
         {
             HtmlWeb web = new HtmlWeb();
             HtmlDocument doc = web.Load($"https://fbref.com/en/comps/Big5/{statname}/players/Big-5-European-Leagues-Stats");

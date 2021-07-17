@@ -20,7 +20,7 @@
 
                 foreach (string statname in statNames)
                 {
-                    scraper.Scrape(statname);
+                    scraper.PlayerScrape(statname);
                 }
             }
 

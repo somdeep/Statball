@@ -39,8 +39,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 37,Jean-Eudes Aholou,ci CIV,MF,Monaco,fr Ligue 1,26,1994,2,0,36,0.4,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.1,0.1,0.0,0.1,0.26,0.00,0.26,0.26,0.26,Matches
 38,Joseph Aidoo,gh GHA,DF,Celta Vigo,es La Liga,24,1995,25,14,1289,14.3,0,0,0,0,0,3,0,0.00,0.00,0.00,0.00,0.00,0.8,0.8,0.6,1.4,0.06,0.04,0.10,0.06,0.10,Matches
 39,Ola Aina,ng NGA,DF,Fulham,eng Premier League,23,1996,31,31,2664,29.6,2,1,2,0,0,3,0,0.07,0.03,0.10,0.07,0.10,1.0,1.0,1.4,2.3,0.03,0.05,0.08,0.03,0.08,Matches
-40,Rayan Aït Nouri,fr FRA,DF,Angers,fr Ligue 1,19,2001,3,2,187,2.1,0,1,0,0,0,0,0,0.00,0.48,0.48,0.00,0.48,0.1,0.1,0.4,0.4,0.04,0.17,0.21,0.04,0.21,Matches
-41,Rayan Aït Nouri,fr FRA,DF,Wolves,eng Premier League,19,2001,21,16,1404,15.6,1,1,1,0,0,1,0,0.06,0.06,0.13,0.06,0.13,0.6,0.6,1.0,1.6,0.04,0.06,0.10,0.04,0.10,Matches
+40,Rayan Aït Nouri,fr FRA,DF,Wolves,eng Premier League,19,2001,21,16,1404,15.6,1,1,1,0,0,1,0,0.06,0.06,0.13,0.06,0.13,0.6,0.6,1.0,1.6,0.04,0.06,0.10,0.04,0.10,Matches
+41,Rayan Aït Nouri,fr FRA,DF,Angers,fr Ligue 1,19,2001,3,2,187,2.1,0,1,0,0,0,0,0,0.00,0.48,0.48,0.00,0.48,0.1,0.1,0.4,0.4,0.04,0.17,0.21,0.04,0.21,Matches
 42,Semi Ajayi,ng NGA,DF,West Brom,eng Premier League,26,1993,33,31,2780,30.9,2,0,2,0,0,3,1,0.06,0.00,0.06,0.06,0.06,1.3,1.3,0.3,1.5,0.04,0.01,0.05,0.04,0.05,Matches
 43,Ludovic Ajorque,re REU,FW,Strasbourg,fr Ligue 1,26,1994,35,34,2967,33.0,16,4,12,4,5,5,0,0.49,0.12,0.61,0.36,0.49,16.5,12.7,3.7,16.4,0.50,0.11,0.61,0.39,0.50,Matches
 44,Manuel Akanji,ch SUI,DF,Dortmund,de Bundesliga,25,1995,28,26,2350,26.1,2,0,2,0,0,4,0,0.08,0.00,0.08,0.08,0.08,1.8,1.8,0.1,1.9,0.07,0.00,0.07,0.07,0.07,Matches
@@ -94,8 +94,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 92,Ethan Ampadu,wls WAL,DFMF,Sheffield Utd,eng Premier League,19,2000,25,23,2089,23.2,0,0,0,0,0,3,0,0.00,0.00,0.00,0.00,0.00,0.3,0.3,0.9,1.3,0.01,0.04,0.06,0.01,0.06,Matches
 93,Sofyan Amrabat,ma MAR,MF,Fiorentina,it Serie A,23,1996,31,28,2441,27.1,0,0,0,0,0,7,0,0.00,0.00,0.00,0.00,0.00,0.4,0.4,0.5,0.9,0.02,0.02,0.03,0.02,0.03,Matches
 94,Jon Ander Garrido,es ESP,MF,Cádiz,es La Liga,30,1989,23,7,800,8.9,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.4,0.4,0.1,0.4,0.04,0.01,0.05,0.04,0.05,Matches
-95,Joachim Andersen,dk DEN,DF,Lyon,fr Ligue 1,24,1996,3,2,192,2.1,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.3,0.3,0.0,0.3,0.14,0.00,0.14,0.14,0.14,Matches
-96,Joachim Andersen,dk DEN,DF,Fulham,eng Premier League,24,1996,31,30,2730,30.3,1,1,1,0,0,7,1,0.03,0.03,0.07,0.03,0.07,1.1,1.1,0.5,1.6,0.04,0.02,0.05,0.04,0.05,Matches
+95,Joachim Andersen,dk DEN,DF,Fulham,eng Premier League,24,1996,31,30,2730,30.3,1,1,1,0,0,7,1,0.03,0.03,0.07,0.03,0.07,1.1,1.1,0.5,1.6,0.04,0.02,0.05,0.04,0.05,Matches
+96,Joachim Andersen,dk DEN,DF,Lyon,fr Ligue 1,24,1996,3,2,192,2.1,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.3,0.3,0.0,0.3,0.14,0.00,0.14,0.14,0.14,Matches
 97,Djavan Anderson,nl NED,DF,Lazio,it Serie A,25,1995,3,1,72,0.8,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 98,Elliot Anderson,sct SCO,MF,Newcastle Utd,eng Premier League,17,2002,1,0,4,0.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 99,Felipe Anderson,br BRA,FWMF,West Ham,eng Premier League,27,1993,2,0,3,0.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
@@ -569,8 +569,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 567,Danny da Costa,de GER,DF,Eint Frankfurt,de Bundesliga,27,1993,6,1,110,1.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.2,0.2,0.0,0.2,0.14,0.00,0.14,0.14,0.14,Matches
 568,David Pereira da Costa,pt POR,MFFW,Lens,fr Ligue 1,19,2001,8,1,158,1.8,1,1,1,0,0,0,0,0.57,0.57,1.14,0.57,1.14,0.7,0.7,0.1,0.9,0.43,0.07,0.49,0.43,0.49,Matches
 569,Diego Costa,es ESP,FW,Atlético Madrid,es La Liga,31,1988,7,2,208,2.3,2,0,1,1,1,1,0,0.87,0.00,0.87,0.43,0.43,1.4,0.6,0.3,1.0,0.60,0.14,0.74,0.27,0.41,Matches
-570,Douglas Costa,br BRA,FWMF,Bayern Munich,de Bundesliga,29,1990,11,3,320,3.6,1,1,1,0,0,0,0,0.28,0.28,0.56,0.28,0.56,0.1,0.1,0.7,0.8,0.04,0.19,0.23,0.04,0.23,Matches
-571,Douglas Costa,br BRA,MFFW,Juventus,it Serie A,29,1990,2,0,42,0.5,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.05,0.05,0.00,0.05,Matches
+570,Douglas Costa,br BRA,MFFW,Juventus,it Serie A,29,1990,2,0,42,0.5,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.05,0.05,0.00,0.05,Matches
+571,Douglas Costa,br BRA,FWMF,Bayern Munich,de Bundesliga,29,1990,11,3,320,3.6,1,1,1,0,0,0,0,0.28,0.28,0.56,0.28,0.56,0.1,0.1,0.7,0.8,0.04,0.19,0.23,0.04,0.23,Matches
 572,Hélder Costa,pt POR,MFFW,Leeds United,eng Premier League,26,1994,22,13,1156,12.8,3,3,3,0,0,0,0,0.23,0.23,0.47,0.23,0.47,2.0,2.0,0.9,2.9,0.16,0.07,0.23,0.16,0.23,Matches
 573,Jaume Costa,es ESP,DFMF,Villarreal,es La Liga,32,1988,14,3,351,3.9,0,1,0,0,0,1,0,0.00,0.26,0.26,0.00,0.26,0.1,0.1,0.3,0.4,0.02,0.08,0.09,0.02,0.09,Matches
 574,Charles Costes,fr FRA,MF,Dijon,fr Ligue 1,17,2002,1,0,2,0.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
@@ -596,12 +596,12 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 594,Sergio Cubero Ezcurra,es ESP,MF,Eibar,es La Liga,20,1999,1,0,1,0.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 595,Cucho,co COL,FWMF,Getafe,es La Liga,21,1999,23,18,1466,16.3,2,3,2,0,0,5,0,0.12,0.18,0.31,0.12,0.31,2.5,2.5,1.1,3.7,0.16,0.07,0.23,0.16,0.23,Matches
 596,Marc Cucurella,es ESP,MF,Getafe,es La Liga,22,1998,37,37,3244,36.0,3,2,3,0,0,8,0,0.08,0.06,0.14,0.08,0.14,1.7,1.7,3.0,4.8,0.05,0.08,0.13,0.05,0.13,Matches
-597,Mickaël Cuisance,fr FRA,FW,Bayern Munich,de Bundesliga,20,1999,1,0,18,0.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
-598,Mickaël Cuisance,fr FRA,MF,Marseille,fr Ligue 1,20,1999,23,11,1024,11.4,2,1,2,0,0,3,0,0.18,0.09,0.26,0.18,0.26,0.9,0.9,0.7,1.6,0.08,0.06,0.14,0.08,0.14,Matches
+597,Mickaël Cuisance,fr FRA,MF,Marseille,fr Ligue 1,20,1999,23,11,1024,11.4,2,1,2,0,0,3,0,0.18,0.09,0.26,0.18,0.26,0.9,0.9,0.7,1.6,0.08,0.06,0.14,0.08,0.14,Matches
+598,Mickaël Cuisance,fr FRA,FW,Bayern Munich,de Bundesliga,20,1999,1,0,18,0.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 599,Matheus Cunha,br BRA,FWMF,Hertha BSC,de Bundesliga,21,1999,27,25,2149,23.9,7,4,5,2,3,9,0,0.29,0.17,0.46,0.21,0.38,8.1,5.8,5.0,10.8,0.34,0.21,0.55,0.24,0.45,Matches
 600,Giuseppe Cuomo,it ITA,DF,Crotone,it Serie A,22,1998,13,8,801,8.9,0,0,0,0,0,4,0,0.00,0.00,0.00,0.00,0.00,0.2,0.2,0.0,0.2,0.02,0.00,0.02,0.02,0.02,Matches
-601,Patrick Cutrone,it ITA,FWMF,Fiorentina,it Serie A,22,1998,11,0,196,2.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.2,0.2,0.0,0.2,0.09,0.00,0.09,0.09,0.09,Matches
-602,Patrick Cutrone,it ITA,FWMF,Wolves,eng Premier League,22,1998,2,0,25,0.3,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.2,0.2,0.0,0.2,0.61,0.00,0.61,0.61,0.61,Matches
+601,Patrick Cutrone,it ITA,FWMF,Wolves,eng Premier League,22,1998,2,0,25,0.3,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.2,0.2,0.0,0.2,0.61,0.00,0.61,0.61,0.61,Matches
+602,Patrick Cutrone,it ITA,FWMF,Fiorentina,it Serie A,22,1998,11,0,196,2.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.2,0.2,0.0,0.2,0.09,0.00,0.09,0.09,0.09,Matches
 603,Patrick Cutrone,it ITA,FW,Valencia,es La Liga,22,1998,7,0,108,1.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.5,0.5,0.2,0.7,0.46,0.14,0.60,0.46,0.60,Matches
 604,Wylan Cyprien,fr FRA,MF,Parma,it Serie A,25,1995,13,2,410,4.6,0,0,0,0,0,2,0,0.00,0.00,0.00,0.00,0.00,0.2,0.2,0.2,0.3,0.04,0.03,0.08,0.04,0.08,Matches
 605,Rafael Czichos,de GER,DF,Köln,de Bundesliga,30,1990,28,26,2259,25.1,1,0,1,0,0,7,0,0.04,0.00,0.04,0.04,0.04,1.5,1.5,0.1,1.6,0.06,0.00,0.06,0.06,0.06,Matches
@@ -640,8 +640,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 638,Kevin De Bruyne,be BEL,MF,Manchester City,eng Premier League,29,1991,25,23,1997,22.2,6,12,4,2,3,1,0,0.27,0.54,0.81,0.18,0.72,9.7,7.4,10.2,17.6,0.44,0.46,0.90,0.34,0.79,Matches
 639,Sebastien De Maio,fr FRA,DF,Udinese,it Serie A,33,1987,15,9,853,9.5,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.3,0.3,0.0,0.3,0.03,0.00,0.03,0.03,0.03,Matches
 640,Rodrigo De Paul,ar ARG,MF,Udinese,it Serie A,26,1994,36,36,3201,35.6,9,9,6,3,3,5,2,0.25,0.25,0.51,0.17,0.42,6.6,4.3,10.0,14.3,0.18,0.28,0.47,0.12,0.40,Matches
-641,Mattia De Sciglio,it ITA,DF,Lyon,fr Ligue 1,27,1992,29,14,1467,16.3,0,1,0,0,0,4,1,0.00,0.06,0.06,0.00,0.06,0.1,0.1,1.5,1.6,0.01,0.09,0.10,0.01,0.10,Matches
-642,Mattia De Sciglio,it ITA,DF,Juventus,it Serie A,27,1992,1,0,24,0.3,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.11,0.00,0.11,0.11,0.11,Matches
+641,Mattia De Sciglio,it ITA,DF,Juventus,it Serie A,27,1992,1,0,24,0.3,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.11,0.00,0.11,0.11,0.11,Matches
+642,Mattia De Sciglio,it ITA,DF,Lyon,fr Ligue 1,27,1992,29,14,1467,16.3,0,1,0,0,0,4,1,0.00,0.06,0.06,0.00,0.06,0.1,0.1,1.5,1.6,0.01,0.09,0.10,0.01,0.10,Matches
 643,Lorenzo De Silvestri,it ITA,DF,Bologna,it Serie A,32,1988,29,25,2143,23.8,2,0,2,0,0,4,0,0.08,0.00,0.08,0.08,0.08,2.3,2.3,0.9,3.2,0.10,0.04,0.13,0.10,0.13,Matches
 644,Thibault De Smet,be BEL,DF,Reims,fr Ligue 1,22,1998,8,6,496,5.5,0,0,0,0,0,3,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.4,0.4,0.00,0.08,0.08,0.00,0.08,Matches
 645,Lucas Deaux,fr FRA,MFDF,Nîmes,fr Ligue 1,31,1988,25,19,1754,19.5,1,2,1,0,0,4,1,0.05,0.10,0.15,0.05,0.15,0.9,0.9,1.0,1.9,0.05,0.05,0.10,0.05,0.10,Matches
@@ -659,8 +659,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 657,Cristian Dell'Orco,it ITA,DF,Spezia,it Serie A,26,1994,8,2,262,2.9,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.1,0.1,0.0,0.1,0.03,0.00,0.03,0.03,0.03,Matches
 658,Andy Delort,dz ALG,FW,Montpellier,fr Ligue 1,28,1991,30,30,2482,27.6,15,9,15,0,1,4,0,0.54,0.33,0.87,0.54,0.87,10.8,10.0,5.9,15.9,0.39,0.21,0.60,0.36,0.58,Matches
 659,Fabian Delph,eng ENG,MFDF,Everton,eng Premier League,30,1989,8,2,266,3.0,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.1,0.1,0.01,0.03,0.04,0.01,0.04,Matches
-660,Moussa Dembélé,fr FRA,FW,Lyon,fr Ligue 1,24,1996,16,6,677,7.5,1,0,1,0,0,3,0,0.13,0.00,0.13,0.13,0.13,3.8,3.8,0.7,4.5,0.51,0.09,0.59,0.51,0.59,Matches
-661,Moussa Dembélé,fr FRA,FWMF,Atlético Madrid,es La Liga,24,1996,5,0,100,1.1,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,1.0,1.0,0.0,1.1,0.92,0.02,0.95,0.92,0.95,Matches
+660,Moussa Dembélé,fr FRA,FWMF,Atlético Madrid,es La Liga,24,1996,5,0,100,1.1,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,1.0,1.0,0.0,1.1,0.92,0.02,0.95,0.92,0.95,Matches
+661,Moussa Dembélé,fr FRA,FW,Lyon,fr Ligue 1,24,1996,16,6,677,7.5,1,0,1,0,0,3,0,0.13,0.00,0.13,0.13,0.13,3.8,3.8,0.7,4.5,0.51,0.09,0.59,0.51,0.59,Matches
 662,Ousmane Dembélé,fr FRA,FWDF,Barcelona,es La Liga,23,1997,30,19,1774,19.7,6,3,6,0,0,2,0,0.30,0.15,0.46,0.30,0.46,5.6,5.6,4.9,10.6,0.29,0.25,0.54,0.29,0.54,Matches
 663,Merih Demiral,tr TUR,DF,Juventus,it Serie A,22,1998,15,10,940,10.4,0,1,0,0,0,1,0,0.00,0.10,0.10,0.00,0.10,0.7,0.7,0.1,0.8,0.07,0.01,0.07,0.07,0.07,Matches
 664,Kerem Demirbay,de GER,MF,Leverkusen,de Bundesliga,27,1993,29,20,1744,19.4,4,3,4,0,0,2,0,0.21,0.15,0.36,0.21,0.36,2.4,2.4,2.6,5.0,0.12,0.13,0.26,0.12,0.26,Matches
@@ -1276,8 +1276,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 1274,Samuel Kalu,ng NGA,FWMF,Bordeaux,fr Ligue 1,22,1997,20,14,964,10.7,4,1,4,0,0,3,0,0.37,0.09,0.47,0.37,0.47,1.5,1.5,0.5,2.0,0.14,0.04,0.19,0.14,0.19,Matches
 1275,Pierre Kalulu,fr FRA,DF,Milan,it Serie A,20,2000,13,7,727,8.1,1,1,1,0,0,1,0,0.12,0.12,0.25,0.12,0.25,0.6,0.6,0.4,1.0,0.08,0.05,0.13,0.08,0.13,Matches
 1276,Daichi Kamada,jp JPN,MFFW,Eint Frankfurt,de Bundesliga,23,1996,32,28,2356,26.2,5,12,5,0,0,3,0,0.19,0.46,0.65,0.19,0.65,5.6,5.6,7.5,13.0,0.21,0.28,0.50,0.21,0.50,Matches
-1277,Aboubakar Kamara,mr MTN,FWMF,Dijon,fr Ligue 1,25,1995,10,7,557,6.2,1,0,1,0,0,1,1,0.16,0.00,0.16,0.16,0.16,0.8,0.8,0.7,1.5,0.13,0.12,0.25,0.13,0.25,Matches
-1278,Aboubakar Kamara,mr MTN,FWDF,Fulham,eng Premier League,25,1995,11,2,315,3.5,0,0,0,0,0,1,1,0.00,0.00,0.00,0.00,0.00,0.4,0.4,0.4,0.8,0.11,0.11,0.22,0.11,0.22,Matches
+1277,Aboubakar Kamara,mr MTN,FWDF,Fulham,eng Premier League,25,1995,11,2,315,3.5,0,0,0,0,0,1,1,0.00,0.00,0.00,0.00,0.00,0.4,0.4,0.4,0.8,0.11,0.11,0.22,0.11,0.22,Matches
+1278,Aboubakar Kamara,mr MTN,FWMF,Dijon,fr Ligue 1,25,1995,10,7,557,6.2,1,0,1,0,0,1,1,0.16,0.00,0.16,0.16,0.16,0.8,0.8,0.7,1.5,0.13,0.12,0.25,0.13,0.25,Matches
 1279,Bingourou Kamara,sn SEN,GK,Strasbourg,fr Ligue 1,23,1996,8,8,720,8.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 1280,Boubacar Kamara,fr FRA,MF,Marseille,fr Ligue 1,20,1999,35,35,2894,32.2,0,2,0,0,0,6,0,0.00,0.06,0.06,0.00,0.06,0.7,0.7,1.1,1.8,0.02,0.03,0.06,0.02,0.06,Matches
 1281,Hassane Kamara,ci CIV,DF,Nice,fr Ligue 1,25,1994,36,34,2960,32.9,2,1,2,0,0,3,0,0.06,0.03,0.09,0.06,0.09,1.1,1.1,2.2,3.3,0.03,0.07,0.10,0.03,0.10,Matches
@@ -1334,8 +1334,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 1332,Mateo Klimowicz,de GER,FWMF,Stuttgart,de Bundesliga,20,2000,25,12,1198,13.3,1,1,1,0,0,1,0,0.08,0.08,0.15,0.08,0.15,3.8,3.8,1.2,5.1,0.29,0.09,0.38,0.29,0.38,Matches
 1333,Fabian Klos,de GER,FW,Arminia,de Bundesliga,32,1987,34,32,2709,30.1,5,2,4,1,2,4,0,0.17,0.07,0.23,0.13,0.20,7.9,6.4,3.5,9.8,0.26,0.11,0.38,0.21,0.33,Matches
 1334,Lukas Klostermann,de GER,DF,RB Leipzig,de Bundesliga,24,1996,23,15,1446,16.1,1,0,1,0,0,2,0,0.06,0.00,0.06,0.06,0.06,0.8,0.8,0.5,1.3,0.05,0.03,0.08,0.05,0.08,Matches
-1335,Justin Kluivert,nl NED,FW,RB Leipzig,de Bundesliga,21,1999,19,8,813,9.0,3,1,3,0,0,2,0,0.33,0.11,0.44,0.33,0.44,3.6,3.6,1.2,4.9,0.40,0.14,0.54,0.40,0.54,Matches
-1336,Justin Kluivert,nl NED,FWMF,Roma,it Serie A,21,1999,2,0,19,0.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.05,0.00,0.05,0.05,0.05,Matches
+1335,Justin Kluivert,nl NED,FWMF,Roma,it Serie A,21,1999,2,0,19,0.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.05,0.00,0.05,0.05,0.05,Matches
+1336,Justin Kluivert,nl NED,FW,RB Leipzig,de Bundesliga,21,1999,19,8,813,9.0,3,1,3,0,0,2,0,0.33,0.11,0.44,0.33,0.44,3.6,3.6,1.2,4.9,0.40,0.14,0.54,0.40,0.54,Matches
 1337,Lukas Klünter,de GER,DF,Hertha BSC,de Bundesliga,24,1996,11,11,990,11.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.3,0.3,0.00,0.03,0.03,0.00,0.03,Matches
 1338,Ansgar Knauff,de GER,FWMF,Dortmund,de Bundesliga,18,2002,4,0,71,0.8,1,1,1,0,0,0,0,1.27,1.27,2.54,1.27,2.54,0.1,0.1,1.0,1.1,0.12,1.23,1.36,0.12,1.36,Matches
 1339,Robin Knoche,de GER,DF,Union Berlin,de Bundesliga,28,1992,34,34,3042,33.8,1,0,1,0,0,4,0,0.03,0.00,0.03,0.03,0.03,0.9,0.9,0.3,1.2,0.03,0.01,0.04,0.03,0.04,Matches
@@ -1500,8 +1500,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 1498,Pedro López Muñoz,es ESP,DF,Huesca,es La Liga,36,1983,22,10,1067,11.9,0,1,0,0,0,2,0,0.00,0.08,0.08,0.00,0.08,0.1,0.1,0.8,0.8,0.01,0.06,0.07,0.01,0.07,Matches
 1499,Adrián López,es ESP,FWMF,Osasuna,es La Liga,32,1988,17,5,481,5.3,1,1,1,0,0,0,0,0.19,0.19,0.37,0.19,0.37,1.3,1.3,0.8,2.1,0.24,0.15,0.39,0.24,0.39,Matches
 1500,Javi López,es ESP,DFMF,Alavés,es La Liga,18,2002,9,1,248,2.8,0,0,0,0,0,1,1,0.00,0.00,0.00,0.00,0.00,0.1,0.1,0.1,0.2,0.03,0.04,0.07,0.03,0.07,Matches
-1501,Maxime Lopez,fr FRA,FWMF,Marseille,fr Ligue 1,22,1997,4,2,134,1.5,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.2,0.2,0.00,0.10,0.10,0.00,0.10,Matches
-1502,Maxime Lopez,fr FRA,MF,Sassuolo,it Serie A,22,1997,29,22,1864,20.7,2,0,2,0,0,7,0,0.10,0.00,0.10,0.10,0.10,1.6,1.6,1.0,2.6,0.08,0.05,0.13,0.08,0.13,Matches
+1501,Maxime Lopez,fr FRA,MF,Sassuolo,it Serie A,22,1997,29,22,1864,20.7,2,0,2,0,0,7,0,0.10,0.00,0.10,0.10,0.10,1.6,1.6,1.0,2.6,0.08,0.05,0.13,0.08,0.13,Matches
+1502,Maxime Lopez,fr FRA,FWMF,Marseille,fr Ligue 1,22,1997,4,2,134,1.5,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.2,0.2,0.00,0.10,0.10,0.00,0.10,Matches
 1503,Pau López,es ESP,GK,Roma,it Serie A,25,1994,21,20,1817,20.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 1504,Roberto López,es ESP,MFFW,Real Sociedad,es La Liga,20,2000,17,4,505,5.6,3,0,3,0,0,0,0,0.53,0.00,0.53,0.53,0.53,1.0,1.0,1.7,2.7,0.17,0.30,0.47,0.17,0.47,Matches
 1505,Unai López,es ESP,MF,Athletic Club,es La Liga,24,1995,26,15,1424,15.8,3,0,3,0,0,7,0,0.19,0.00,0.19,0.19,0.19,1.2,1.2,1.2,2.4,0.08,0.08,0.15,0.08,0.15,Matches
@@ -1563,8 +1563,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 1561,Mike Maignan,fr FRA,GK,Lille,fr Ligue 1,24,1995,38,38,3420,38.0,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.2,0.2,0.00,0.01,0.01,0.00,0.01,Matches
 1562,Ainsley Maitland-Niles,eng ENG,DF,Arsenal,eng Premier League,22,1997,11,5,490,5.4,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.1,0.1,0.2,0.3,0.02,0.04,0.06,0.02,0.06,Matches
 1563,Ainsley Maitland-Niles,eng ENG,MF,West Brom,eng Premier League,22,1997,15,14,1230,13.7,0,0,0,0,0,2,0,0.00,0.00,0.00,0.00,0.00,0.7,0.7,0.7,1.4,0.05,0.05,0.10,0.05,0.10,Matches
-1564,Josh Maja,ng NGA,FW,Bordeaux,fr Ligue 1,21,1998,17,11,804,8.9,2,0,2,0,0,2,0,0.22,0.00,0.22,0.22,0.22,3.1,3.1,0.6,3.6,0.34,0.06,0.41,0.34,0.41,Matches
-1565,Josh Maja,ng NGA,FWMF,Fulham,eng Premier League,21,1998,15,9,810,9.0,3,0,2,1,1,0,0,0.33,0.00,0.33,0.22,0.22,4.8,4.0,1.1,5.1,0.53,0.12,0.65,0.45,0.57,Matches
+1564,Josh Maja,ng NGA,FWMF,Fulham,eng Premier League,21,1998,15,9,810,9.0,3,0,2,1,1,0,0,0.33,0.00,0.33,0.22,0.22,4.8,4.0,1.1,5.1,0.53,0.12,0.65,0.45,0.57,Matches
+1565,Josh Maja,ng NGA,FW,Bordeaux,fr Ligue 1,21,1998,17,11,804,8.9,2,0,2,0,0,2,0,0.22,0.00,0.22,0.22,0.22,3.1,3.1,0.6,3.6,0.34,0.06,0.41,0.34,0.41,Matches
 1566,Radosław Majecki,pl POL,GK,Monaco,fr Ligue 1,20,1999,1,1,90,1.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 1567,Abdul Majeed Waris,gh GHA,FWMF,Strasbourg,fr Ligue 1,28,1991,15,5,552,6.1,1,0,0,1,1,0,0,0.16,0.00,0.16,0.00,0.00,1.6,0.9,0.0,0.9,0.27,0.00,0.27,0.14,0.14,Matches
 1568,Marco Majouga,fr FRA,FWMF,Nîmes,fr Ligue 1,19,2001,7,0,105,1.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.2,0.2,0.3,0.5,0.19,0.23,0.43,0.19,0.43,Matches
@@ -1629,8 +1629,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 1627,Luca Marrone,it ITA,DF,Crotone,it Serie A,30,1990,21,18,1588,17.6,0,0,0,0,0,8,0,0.00,0.00,0.00,0.00,0.00,0.3,0.3,0.0,0.3,0.01,0.00,0.01,0.01,0.01,Matches
 1628,Roger Martí,es ESP,FW,Levante,es La Liga,29,1991,33,26,2198,24.4,12,4,10,2,4,4,0,0.49,0.16,0.66,0.41,0.57,9.3,6.3,2.5,8.8,0.38,0.10,0.48,0.26,0.36,Matches
 1629,Anthony Martial,fr FRA,FW,Manchester Utd,eng Premier League,24,1995,22,17,1480,16.4,4,3,4,0,0,0,1,0.24,0.18,0.43,0.24,0.43,6.5,6.5,2.0,8.5,0.40,0.12,0.51,0.40,0.51,Matches
-1630,Aarón Martín,es ESP,DF,Mainz 05,de Bundesliga,23,1997,5,3,262,2.9,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.4,0.4,0.01,0.12,0.14,0.01,0.14,Matches
-1631,Aarón Martín,es ESP,DF,Celta Vigo,es La Liga,23,1997,19,17,1540,17.1,0,3,0,0,0,1,0,0.00,0.18,0.18,0.00,0.18,0.2,0.2,1.2,1.4,0.01,0.07,0.08,0.01,0.08,Matches
+1630,Aarón Martín,es ESP,DF,Celta Vigo,es La Liga,23,1997,19,17,1540,17.1,0,3,0,0,0,1,0,0.00,0.18,0.18,0.00,0.18,0.2,0.2,1.2,1.4,0.01,0.07,0.08,0.01,0.08,Matches
+1631,Aarón Martín,es ESP,DF,Mainz 05,de Bundesliga,23,1997,5,3,262,2.9,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.4,0.4,0.01,0.12,0.14,0.01,0.14,Matches
 1632,Álex Martín,es ESP,DF,Cádiz,es La Liga,22,1998,2,1,96,1.1,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 1633,Jonas Martin,fr FRA,MF,Rennes,fr Ligue 1,30,1990,12,6,482,5.4,0,0,0,0,0,3,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.2,0.2,0.00,0.03,0.03,0.00,0.03,Matches
 1634,Martinelli,br BRA,FW,Arsenal,eng Premier League,19,2001,14,7,589,6.5,2,1,2,0,0,0,0,0.31,0.15,0.46,0.31,0.46,3.4,3.4,2.1,5.5,0.53,0.32,0.85,0.53,0.85,Matches
@@ -1670,8 +1670,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 1668,Stephy Mavididi,eng ENG,FWMF,Montpellier,fr Ligue 1,22,1998,35,23,2030,22.6,9,0,9,0,0,3,0,0.40,0.00,0.40,0.40,0.40,4.9,4.9,1.2,6.1,0.22,0.05,0.27,0.22,0.27,Matches
 1669,Konstantinos Mavropanos,gr GRE,DF,Stuttgart,de Bundesliga,22,1997,21,19,1463,16.3,0,0,0,0,0,5,0,0.00,0.00,0.00,0.00,0.00,1.4,1.4,0.3,1.7,0.09,0.02,0.10,0.09,0.10,Matches
 1670,Eric Maxim Choupo-Moting,cm CMR,FWMF,Bayern Munich,de Bundesliga,31,1989,22,8,820,9.1,3,0,3,0,0,2,0,0.33,0.00,0.33,0.33,0.33,3.2,3.2,1.6,4.8,0.35,0.17,0.52,0.35,0.52,Matches
-1671,Borja Mayoral,es ESP,FW,Real Madrid,es La Liga,23,1997,2,0,23,0.3,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
-1672,Borja Mayoral,es ESP,FW,Roma,it Serie A,23,1997,31,18,1551,17.2,10,3,10,0,0,1,0,0.58,0.17,0.75,0.58,0.75,8.3,8.3,1.7,10.0,0.48,0.10,0.58,0.48,0.58,Matches
+1671,Borja Mayoral,es ESP,FW,Roma,it Serie A,23,1997,31,18,1551,17.2,10,3,10,0,0,1,0,0.58,0.17,0.75,0.58,0.75,8.3,8.3,1.7,10.0,0.48,0.10,0.58,0.48,0.58,Matches
+1672,Borja Mayoral,es ESP,FW,Real Madrid,es La Liga,23,1997,2,0,23,0.3,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 1673,Youssef Maziz,fr FRA,MFFW,Metz,fr Ligue 1,22,1998,11,2,257,2.9,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.4,0.4,0.4,0.9,0.14,0.16,0.30,0.14,0.30,Matches
 1674,Antonio Mazzotta,it ITA,DF,Crotone,it Serie A,30,1989,2,1,56,0.6,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 1675,Kevin Mbabu,ch SUI,DF,Wolfsburg,de Bundesliga,25,1995,22,19,1642,18.2,0,1,0,0,0,7,0,0.00,0.05,0.05,0.00,0.05,0.5,0.5,1.2,1.7,0.03,0.07,0.10,0.03,0.10,Matches
@@ -1710,8 +1710,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 1708,Eñaut Mendía,es ESP,FW,Eibar,es La Liga,21,1999,1,1,61,0.7,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.02,0.00,0.02,0.02,0.02,Matches
 1709,Batista Mendy,fr FRA,MF,Nantes,fr Ligue 1,20,2000,2,0,76,0.8,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 1710,Benjamin Mendy,fr FRA,DF,Manchester City,eng Premier League,26,1994,13,11,953,10.6,2,1,2,0,0,2,0,0.19,0.09,0.28,0.19,0.28,0.4,0.4,0.4,0.9,0.04,0.04,0.08,0.04,0.08,Matches
-1711,Edouard Mendy,sn SEN,GK,Rennes,fr Ligue 1,28,1992,1,1,90,1.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.1,0.1,0.00,0.05,0.05,0.00,0.05,Matches
-1712,Edouard Mendy,sn SEN,GK,Chelsea,eng Premier League,28,1992,31,31,2745,30.5,0,0,0,0,0,2,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
+1711,Edouard Mendy,sn SEN,GK,Chelsea,eng Premier League,28,1992,31,31,2745,30.5,0,0,0,0,0,2,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
+1712,Edouard Mendy,sn SEN,GK,Rennes,fr Ligue 1,28,1992,1,1,90,1.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.1,0.1,0.00,0.05,0.05,0.00,0.05,Matches
 1713,Ferland Mendy,fr FRA,DF,Real Madrid,es La Liga,25,1995,26,24,2208,24.5,1,0,1,0,0,3,0,0.04,0.00,0.04,0.04,0.04,0.6,0.6,1.7,2.3,0.02,0.07,0.09,0.02,0.09,Matches
 1714,Nampalys Mendy,sn SEN,MF,Leicester City,eng Premier League,28,1992,23,15,1459,16.2,0,1,0,0,0,5,0,0.00,0.06,0.06,0.00,0.06,0.1,0.1,0.4,0.4,0.01,0.02,0.03,0.01,0.03,Matches
 1715,Hamza Mendyl,ma MAR,FW,Schalke 04,de Bundesliga,22,1997,3,1,95,1.1,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.1,0.1,0.0,0.1,0.10,0.00,0.10,0.10,0.10,Matches
@@ -1767,15 +1767,15 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 1765,Maximilian Mittelstädt,de GER,DF,Hertha BSC,de Bundesliga,23,1997,27,22,1797,20.0,0,2,0,0,0,3,0,0.00,0.10,0.10,0.00,0.10,0.8,0.8,1.9,2.7,0.04,0.09,0.14,0.04,0.14,Matches
 1766,Henrikh Mkhitaryan,am ARM,FWMF,Roma,it Serie A,31,1989,34,30,2745,30.5,13,10,12,1,1,2,0,0.43,0.33,0.75,0.39,0.72,12.3,11.5,9.0,20.5,0.40,0.30,0.70,0.38,0.67,Matches
 1767,Jakub Moder,pl POL,DFMF,Brighton,eng Premier League,21,1999,12,7,647,7.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.9,0.9,0.2,1.0,0.12,0.02,0.14,0.12,0.14,Matches
-1768,Anthony Modeste,fr FRA,FWMF,Köln,de Bundesliga,32,1988,8,1,221,2.5,0,0,0,0,1,1,0,0.00,0.00,0.00,0.00,0.00,1.8,1.0,0.0,1.1,0.73,0.01,0.74,0.42,0.43,Matches
-1769,Anthony Modeste,fr FRA,FW,Saint-Étienne,fr Ligue 1,32,1988,7,3,293,3.3,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.9,0.9,0.1,1.0,0.26,0.04,0.30,0.26,0.30,Matches
+1768,Anthony Modeste,fr FRA,FW,Saint-Étienne,fr Ligue 1,32,1988,7,3,293,3.3,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.9,0.9,0.1,1.0,0.26,0.04,0.30,0.26,0.30,Matches
+1769,Anthony Modeste,fr FRA,FWMF,Köln,de Bundesliga,32,1988,8,1,221,2.5,0,0,0,0,1,1,0,0.00,0.00,0.00,0.00,0.00,1.8,1.0,0.0,1.1,0.73,0.01,0.74,0.42,0.43,Matches
 1770,Luka Modrić,hr CRO,MF,Real Madrid,es La Liga,34,1985,35,32,2733,30.4,5,3,5,0,0,4,0,0.16,0.10,0.26,0.16,0.26,2.8,2.8,4.1,6.9,0.09,0.14,0.23,0.09,0.23,Matches
 1771,Terem Moffi,ng NGA,FW,Lorient,fr Ligue 1,21,1999,32,26,2073,23.0,14,2,13,1,1,2,0,0.61,0.09,0.69,0.56,0.65,12.5,11.7,3.9,15.7,0.54,0.17,0.71,0.51,0.68,Matches
 1772,Kevin Möhwald,de GER,MF,Werder Bremen,de Bundesliga,27,1993,27,17,1555,17.3,5,1,5,0,0,4,1,0.29,0.06,0.35,0.29,0.35,1.3,1.3,1.0,2.3,0.08,0.06,0.13,0.08,0.13,Matches
 1773,Niklas Moisander,fi FIN,DF,Werder Bremen,de Bundesliga,34,1985,18,12,1222,13.6,0,0,0,0,0,3,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 1774,Dion Moise Sahi,ci CIV,FWMF,Strasbourg,fr Ligue 1,18,2001,6,0,94,1.0,1,0,1,0,0,0,0,0.96,0.00,0.96,0.96,0.96,0.4,0.4,0.0,0.4,0.35,0.01,0.37,0.35,0.37,Matches
-1775,Johan Mojica,co COL,DF,Elche,es La Liga,27,1992,17,14,1204,13.4,0,0,0,0,0,3,0,0.00,0.00,0.00,0.00,0.00,0.1,0.1,0.8,0.9,0.01,0.06,0.07,0.01,0.07,Matches
-1776,Johan Mojica,co COL,DFFW,Atalanta,it Serie A,27,1992,11,3,299,3.3,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.1,0.1,0.3,0.4,0.03,0.09,0.11,0.03,0.11,Matches
+1775,Johan Mojica,co COL,DFFW,Atalanta,it Serie A,27,1992,11,3,299,3.3,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.1,0.1,0.3,0.4,0.03,0.09,0.11,0.03,0.11,Matches
+1776,Johan Mojica,co COL,DF,Elche,es La Liga,27,1992,17,14,1204,13.4,0,0,0,0,0,3,0,0.00,0.00,0.00,0.00,0.00,0.1,0.1,0.8,0.9,0.01,0.06,0.07,0.01,0.07,Matches
 1777,Guillem Molina,es ESP,DF,Valencia,es La Liga,20,2000,2,1,153,1.7,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 1778,Jorge Molina,es ESP,FWMF,Granada,es La Liga,38,1982,33,17,1615,17.9,8,2,8,0,1,3,0,0.45,0.11,0.56,0.45,0.56,5.0,4.3,2.2,6.5,0.28,0.12,0.40,0.24,0.36,Matches
 1779,Nahuel Molina,ar ARG,DF,Udinese,it Serie A,22,1997,29,18,1828,20.3,2,5,2,0,0,1,0,0.10,0.25,0.34,0.10,0.34,1.6,1.6,2.5,4.1,0.08,0.12,0.20,0.08,0.20,Matches
@@ -1851,8 +1851,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 1849,Obite N'Dicka,fr FRA,DF,Eint Frankfurt,de Bundesliga,20,1999,23,23,2044,22.7,3,1,3,0,0,10,0,0.13,0.04,0.18,0.13,0.18,1.1,1.1,0.3,1.5,0.05,0.01,0.06,0.05,0.06,Matches
 1850,Kévin N'Doram,fr FRA,MF,Metz,fr Ligue 1,24,1996,6,4,307,3.4,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.01,0.01,0.00,0.01,Matches
 1851,Stanley N'Soki,fr FRA,DF,Nice,fr Ligue 1,21,1999,18,13,1246,13.8,0,0,0,0,0,4,0,0.00,0.00,0.00,0.00,0.00,0.4,0.4,0.1,0.5,0.03,0.01,0.04,0.03,0.04,Matches
-1852,Nacho,es ESP,DF,Real Madrid,es La Liga,30,1990,24,22,2000,22.2,1,0,1,0,0,8,0,0.05,0.00,0.05,0.05,0.05,1.5,1.5,0.4,1.9,0.07,0.02,0.09,0.07,0.09,Matches
-1853,Nacho,es ESP,DF,Valladolid,es La Liga,31,1989,23,21,1813,20.1,0,1,0,0,0,3,1,0.00,0.05,0.05,0.00,0.05,0.3,0.3,1.6,1.9,0.02,0.08,0.09,0.02,0.09,Matches
+1852,Nacho,es ESP,DF,Valladolid,es La Liga,31,1989,23,21,1813,20.1,0,1,0,0,0,3,1,0.00,0.05,0.05,0.00,0.05,0.3,0.3,1.6,1.9,0.02,0.08,0.09,0.02,0.09,Matches
+1853,Nacho,es ESP,DF,Real Madrid,es La Liga,30,1990,24,22,2000,22.2,1,0,1,0,0,8,0,0.05,0.00,0.05,0.05,0.05,1.5,1.5,0.4,1.9,0.07,0.02,0.09,0.07,0.09,Matches
 1854,Yuto Nagatomo,jp JPN,DF,Marseille,fr Ligue 1,33,1986,25,20,1594,17.7,0,1,0,0,0,2,0,0.00,0.06,0.06,0.00,0.06,0.1,0.1,0.4,0.5,0.01,0.02,0.03,0.01,0.03,Matches
 1855,Kenny Nagera,fr FRA,FW,Paris S-G,fr Ligue 1,18,2002,1,0,2,0.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 1856,Radja Nainggolan,be BEL,MF,Cagliari,it Serie A,32,1988,22,22,1841,20.5,1,0,1,0,0,5,0,0.05,0.00,0.05,0.05,0.05,1.6,1.6,1.7,3.3,0.08,0.08,0.16,0.08,0.16,Matches
@@ -2153,8 +2153,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 2151,Uroš Račić,rs SRB,MF,Valencia,es La Liga,22,1998,31,25,2187,24.3,1,1,1,0,0,6,0,0.04,0.04,0.08,0.04,0.08,1.6,1.6,0.4,1.9,0.06,0.02,0.08,0.06,0.08,Matches
 2152,Anthony Racioppi,ch SUI,GK,Dijon,fr Ligue 1,21,1998,21,21,1890,21.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.1,0.1,0.00,0.01,0.01,0.00,0.01,Matches
 2153,Nemanja Radoja,rs SRB,MF,Levante,es La Liga,27,1993,21,13,1121,12.5,0,2,0,0,0,1,0,0.00,0.16,0.16,0.00,0.16,0.3,0.3,0.3,0.6,0.02,0.02,0.05,0.02,0.05,Matches
-2154,Nemanja Radonjić,rs SRB,FWDF,Hertha BSC,de Bundesliga,24,1996,12,5,611,6.8,1,2,1,0,0,1,0,0.15,0.29,0.44,0.15,0.44,1.8,1.8,0.9,2.8,0.27,0.14,0.41,0.27,0.41,Matches
-2155,Nemanja Radonjić,rs SRB,FW,Marseille,fr Ligue 1,24,1996,12,4,396,4.4,2,1,2,0,0,2,0,0.45,0.23,0.68,0.45,0.68,1.8,1.8,0.4,2.2,0.41,0.09,0.50,0.41,0.50,Matches
+2154,Nemanja Radonjić,rs SRB,FW,Marseille,fr Ligue 1,24,1996,12,4,396,4.4,2,1,2,0,0,2,0,0.45,0.23,0.68,0.45,0.68,1.8,1.8,0.4,2.2,0.41,0.09,0.50,0.41,0.50,Matches
+2155,Nemanja Radonjić,rs SRB,FWDF,Hertha BSC,de Bundesliga,24,1996,12,5,611,6.8,1,2,1,0,0,1,0,0.15,0.29,0.44,0.15,0.44,1.8,1.8,0.9,2.8,0.27,0.14,0.41,0.27,0.41,Matches
 2156,Aleksandar Radovanović,rs SRB,DF,Lens,fr Ligue 1,26,1993,1,1,90,1.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 2157,Ivan Radovanović,rs SRB,DFMF,Genoa,it Serie A,31,1988,33,24,2232,24.8,0,0,0,0,0,6,0,0.00,0.00,0.00,0.00,0.00,0.4,0.4,0.1,0.5,0.02,0.00,0.02,0.02,0.02,Matches
 2158,Ionuț Radu,ro ROU,GK,Inter,it Serie A,23,1997,2,1,135,1.5,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
@@ -2277,8 +2277,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 2275,Sebastian Rudy,de GER,MFDF,Hoffenheim,de Bundesliga,30,1990,25,21,1678,18.6,1,3,1,0,0,4,0,0.05,0.16,0.21,0.05,0.21,0.6,0.6,2.2,2.8,0.03,0.12,0.15,0.03,0.15,Matches
 2276,Sebastian Rudy,de GER,DF,Schalke 04,de Bundesliga,30,1990,2,2,180,2.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.1,0.1,0.01,0.06,0.06,0.01,0.06,Matches
 2277,Kevin Rüegg,ch SUI,DFMF,Hellas Verona,it Serie A,21,1998,7,1,205,2.3,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.01,0.00,0.01,0.01,0.01,Matches
-2278,Daniele Rugani,it ITA,DF,Rennes,fr Ligue 1,26,1994,1,1,90,1.0,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.04,0.00,0.04,0.04,0.04,Matches
-2279,Daniele Rugani,it ITA,DF,Cagliari,it Serie A,26,1994,16,12,1001,11.1,1,1,1,0,0,2,0,0.09,0.09,0.18,0.09,0.18,0.4,0.4,0.4,0.8,0.03,0.04,0.07,0.03,0.07,Matches
+2278,Daniele Rugani,it ITA,DF,Cagliari,it Serie A,26,1994,16,12,1001,11.1,1,1,1,0,0,2,0,0.09,0.09,0.18,0.09,0.18,0.4,0.4,0.4,0.8,0.03,0.04,0.07,0.03,0.07,Matches
+2279,Daniele Rugani,it ITA,DF,Rennes,fr Ligue 1,26,1994,1,1,90,1.0,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.04,0.00,0.04,0.04,0.04,Matches
 2280,Matteo Ruggeri,it ITA,DF,Atalanta,it Serie A,18,2002,6,3,208,2.3,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.1,0.01,0.02,0.03,0.01,0.03,Matches
 2281,Mário Rui,pt POR,DF,Napoli,it Serie A,29,1991,27,17,1669,18.5,0,2,0,0,0,4,0,0.00,0.11,0.11,0.00,0.11,0.7,0.7,2.0,2.7,0.04,0.11,0.15,0.04,0.15,Matches
 2282,Aitor Ruibal,es ESP,FWMF,Betis,es La Liga,24,1996,28,21,1593,17.7,2,2,2,0,0,2,0,0.11,0.11,0.23,0.11,0.23,2.6,2.6,2.4,5.0,0.15,0.14,0.28,0.15,0.28,Matches
@@ -2287,8 +2287,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 2285,Kays Ruiz,ma MAR,FWMF,Paris S-G,fr Ligue 1,17,2002,7,1,186,2.1,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.1,0.1,0.0,0.1,0.03,0.00,0.03,0.03,0.03,Matches
 2286,Víctor Ruiz,es ESP,DF,Betis,es La Liga,31,1989,27,24,2157,24.0,2,0,2,0,0,9,0,0.08,0.00,0.08,0.08,0.08,1.2,1.2,0.1,1.2,0.05,0.00,0.05,0.05,0.05,Matches
 2287,Gerónimo Rulli,ar ARG,GK,Villarreal,es La Liga,28,1992,2,2,180,2.0,0,0,0,0,0,0,1,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
-2288,Georginio Rutter,fr FRA,FW,Hoffenheim,de Bundesliga,18,2002,9,2,241,2.7,1,0,1,0,0,0,0,0.37,0.00,0.37,0.37,0.37,0.4,0.4,0.2,0.6,0.16,0.06,0.22,0.16,0.22,Matches
-2289,Georginio Rutter,fr FRA,FWMF,Rennes,fr Ligue 1,18,2002,4,0,44,0.5,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.1,0.1,0.00,0.29,0.29,0.00,0.29,Matches
+2288,Georginio Rutter,fr FRA,FWMF,Rennes,fr Ligue 1,18,2002,4,0,44,0.5,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.1,0.1,0.00,0.29,0.29,0.00,0.29,Matches
+2289,Georginio Rutter,fr FRA,FW,Hoffenheim,de Bundesliga,18,2002,9,2,241,2.7,1,0,1,0,0,0,0,0.37,0.00,0.37,0.37,0.37,0.4,0.4,0.2,0.6,0.16,0.06,0.22,0.16,0.22,Matches
 2290,Mathew Ryan,au AUS,GK,Arsenal,eng Premier League,28,1992,3,3,270,3.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 2291,Mathew Ryan,au AUS,GK,Brighton,eng Premier League,28,1992,11,11,990,11.0,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 2292,Julian Ryerson,no NOR,DFMF,Union Berlin,de Bundesliga,22,1997,24,10,1069,11.9,0,2,0,0,0,2,0,0.00,0.17,0.17,0.00,0.17,0.2,0.2,1.3,1.4,0.02,0.11,0.12,0.02,0.12,Matches
@@ -2341,8 +2341,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 2339,Oier Sanjurjo,es ESP,MF,Osasuna,es La Liga,34,1986,32,24,2084,23.2,0,2,0,0,0,10,0,0.00,0.09,0.09,0.00,0.09,0.9,0.9,1.8,2.6,0.04,0.08,0.11,0.04,0.11,Matches
 2340,Mohamed Sankoh,nl NED,FW,Stuttgart,de Bundesliga,16,2003,1,0,17,0.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.21,0.00,0.21,0.21,0.21,Matches
 2341,Siriki Sanogo,ci CIV,MF,Benevento,it Serie A,18,2001,1,0,10,0.1,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
-2342,Morgan Sanson,fr FRA,MF,Marseille,fr Ligue 1,25,1994,12,10,826,9.2,2,3,2,0,0,2,0,0.22,0.33,0.54,0.22,0.54,1.2,1.2,2.1,3.3,0.13,0.23,0.36,0.13,0.36,Matches
-2343,Morgan Sanson,fr FRA,MF,Aston Villa,eng Premier League,25,1994,9,3,294,3.3,0,0,0,0,0,3,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.1,0.2,0.01,0.04,0.05,0.01,0.05,Matches
+2342,Morgan Sanson,fr FRA,MF,Aston Villa,eng Premier League,25,1994,9,3,294,3.3,0,0,0,0,0,3,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.1,0.2,0.01,0.04,0.05,0.01,0.05,Matches
+2343,Morgan Sanson,fr FRA,MF,Marseille,fr Ligue 1,25,1994,12,10,826,9.2,2,3,2,0,0,2,0,0.22,0.33,0.54,0.22,0.54,1.2,1.2,2.1,3.3,0.13,0.23,0.36,0.13,0.36,Matches
 2344,Nicola Sansone,it ITA,FWMF,Bologna,it Serie A,28,1991,26,11,1169,13.0,2,2,2,0,0,2,0,0.15,0.15,0.31,0.15,0.31,3.8,3.8,2.3,6.1,0.29,0.17,0.47,0.29,0.47,Matches
 2345,Baptiste Santamaria,fr FRA,MF,Angers,fr Ligue 1,25,1995,3,3,270,3.0,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.3,0.3,0.1,0.5,0.12,0.04,0.16,0.12,0.16,Matches
 2346,Baptiste Santamaria,fr FRA,MF,Freiburg,de Bundesliga,25,1995,30,28,2209,24.5,1,2,1,0,0,5,0,0.04,0.08,0.12,0.04,0.12,1.9,1.9,1.5,3.4,0.08,0.06,0.14,0.08,0.14,Matches
@@ -2354,8 +2354,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 2352,Ivan Šaponjić,rs SRB,FW,Cádiz,es La Liga,22,1997,9,3,388,4.3,1,0,0,1,1,2,0,0.23,0.00,0.23,0.00,0.00,1.7,0.9,0.0,0.9,0.40,0.00,0.40,0.22,0.22,Matches
 2353,Pablo Sarabia,es ESP,FWMF,Paris S-G,fr Ligue 1,28,1992,27,13,1320,14.7,6,4,6,0,0,2,0,0.41,0.27,0.68,0.41,0.68,4.8,4.8,5.4,10.2,0.33,0.36,0.69,0.33,0.69,Matches
 2354,Josh Sargent,us USA,FWMF,Werder Bremen,de Bundesliga,20,2000,32,30,2506,27.8,5,2,5,0,0,7,0,0.18,0.07,0.25,0.18,0.25,5.2,5.2,3.8,9.0,0.19,0.13,0.32,0.19,0.32,Matches
-2355,Bouna Sarr,gn GUI,DF,Bayern Munich,de Bundesliga,28,1992,8,5,452,5.0,0,1,0,0,0,1,0,0.00,0.20,0.20,0.00,0.20,0.1,0.1,0.1,0.2,0.02,0.02,0.04,0.02,0.04,Matches
-2356,Bouna Sarr,gn GUI,DF,Marseille,fr Ligue 1,28,1992,2,0,76,0.8,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.02,0.00,0.02,0.02,0.02,Matches
+2355,Bouna Sarr,gn GUI,DF,Marseille,fr Ligue 1,28,1992,2,0,76,0.8,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.02,0.00,0.02,0.02,0.02,Matches
+2356,Bouna Sarr,gn GUI,DF,Bayern Munich,de Bundesliga,28,1992,8,5,452,5.0,0,1,0,0,0,1,0,0.00,0.20,0.20,0.00,0.20,0.1,0.1,0.1,0.2,0.02,0.02,0.04,0.02,0.04,Matches
 2357,Sidy Sarr,sn SEN,MF,Nîmes,fr Ligue 1,24,1996,9,6,463,5.1,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.4,0.4,0.5,0.9,0.07,0.10,0.17,0.07,0.17,Matches
 2358,Marco Sau,it ITA,MFFW,Benevento,it Serie A,32,1987,24,9,785,8.7,4,2,3,1,1,1,1,0.46,0.23,0.69,0.34,0.57,2.4,1.6,1.3,3.0,0.28,0.15,0.43,0.19,0.34,Matches
 2359,Téji Savanier,fr FRA,MF,Montpellier,fr Ligue 1,28,1991,27,26,2165,24.1,5,5,3,2,4,6,1,0.21,0.21,0.42,0.12,0.33,5.8,2.7,5.8,8.6,0.24,0.24,0.48,0.11,0.36,Matches
@@ -2510,8 +2510,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 2508,John Stones,eng ENG,DF,Manchester City,eng Premier League,26,1994,22,22,1933,21.5,4,0,4,0,0,0,1,0.19,0.00,0.19,0.19,0.19,2.2,2.2,0.1,2.3,0.10,0.00,0.11,0.10,0.11,Matches
 2509,Thomas Strakosha,al ALB,GK,Lazio,it Serie A,25,1995,9,9,810,9.0,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 2510,Tobias Strobl,de GER,MF,Augsburg,de Bundesliga,30,1990,29,21,1846,20.5,0,0,0,0,0,4,0,0.00,0.00,0.00,0.00,0.00,0.5,0.5,0.9,1.4,0.03,0.04,0.07,0.03,0.07,Matches
-2511,Kevin Strootman,nl NED,MF,Marseille,fr Ligue 1,30,1990,11,1,233,2.6,0,0,0,0,0,2,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.3,0.3,0.00,0.10,0.10,0.00,0.10,Matches
-2512,Kevin Strootman,nl NED,MF,Genoa,it Serie A,30,1990,18,18,1314,14.6,0,4,0,0,0,7,0,0.00,0.27,0.27,0.00,0.27,0.5,0.5,2.4,2.8,0.03,0.16,0.20,0.03,0.20,Matches
+2511,Kevin Strootman,nl NED,MF,Genoa,it Serie A,30,1990,18,18,1314,14.6,0,4,0,0,0,7,0,0.00,0.27,0.27,0.00,0.27,0.5,0.5,2.4,2.8,0.03,0.16,0.20,0.03,0.20,Matches
+2512,Kevin Strootman,nl NED,MF,Marseille,fr Ligue 1,30,1990,11,1,233,2.6,0,0,0,0,0,2,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.3,0.3,0.00,0.10,0.10,0.00,0.10,Matches
 2513,Pascal Struijk,nl NED,DFMF,Leeds United,eng Premier League,20,1999,27,22,2075,23.1,1,0,1,0,0,3,0,0.04,0.00,0.04,0.04,0.04,2.4,2.4,0.2,2.6,0.10,0.01,0.11,0.10,0.11,Matches
 2514,Jens Stryger Larsen,dk DEN,DF,Udinese,it Serie A,29,1991,33,30,2638,29.3,2,0,2,0,0,0,0,0.07,0.00,0.07,0.07,0.07,2.9,2.9,1.0,3.8,0.10,0.03,0.13,0.10,0.13,Matches
 2515,Stefano Sturaro,it ITA,MF,Hellas Verona,it Serie A,27,1993,10,4,423,4.7,0,0,0,0,0,5,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.01,0.00,0.01,0.01,0.01,Matches
@@ -2563,8 +2563,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 2561,Pietro Terracciano,it ITA,GK,Fiorentina,it Serie A,30,1990,4,2,272,3.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 2562,Martin Terrier,fr FRA,FWMF,Rennes,fr Ligue 1,23,1997,34,30,2436,27.1,9,7,8,1,1,2,1,0.33,0.26,0.59,0.30,0.55,6.3,5.6,4.5,10.0,0.23,0.17,0.40,0.21,0.37,Matches
 2563,Claudio Terzi,it ITA,DF,Spezia,it Serie A,36,1984,25,22,1869,20.8,1,1,1,0,0,9,1,0.05,0.05,0.10,0.05,0.10,0.3,0.3,0.1,0.4,0.02,0.00,0.02,0.02,0.02,Matches
-2564,Kenny Tete,nl NED,DF,Lyon,fr Ligue 1,24,1995,1,0,20,0.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
-2565,Kenny Tete,nl NED,DF,Fulham,eng Premier League,24,1995,22,18,1481,16.5,0,1,0,0,0,3,0,0.00,0.06,0.06,0.00,0.06,0.2,0.2,1.6,1.8,0.01,0.10,0.11,0.01,0.11,Matches
+2564,Kenny Tete,nl NED,DF,Fulham,eng Premier League,24,1995,22,18,1481,16.5,0,1,0,0,0,3,0,0.00,0.06,0.06,0.00,0.06,0.2,0.2,1.6,1.8,0.01,0.10,0.11,0.01,0.11,Matches
+2565,Kenny Tete,nl NED,DF,Lyon,fr Ligue 1,24,1995,1,0,20,0.2,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 2566,Cedric Teuchert,de GER,FWMF,Union Berlin,de Bundesliga,23,1997,24,5,754,8.4,3,1,3,0,0,2,0,0.36,0.12,0.48,0.36,0.48,3.3,3.3,1.0,4.3,0.39,0.12,0.52,0.39,0.52,Matches
 2567,Florian Thauvin,fr FRA,FWMF,Marseille,fr Ligue 1,27,1993,36,33,2732,30.4,8,8,8,0,2,5,0,0.26,0.26,0.53,0.26,0.53,9.8,8.3,9.0,17.3,0.32,0.30,0.62,0.27,0.57,Matches
 2568,Malick Thiaw,de GER,DF,Schalke 04,de Bundesliga,18,2001,19,15,1452,16.1,1,0,1,0,0,5,1,0.06,0.00,0.06,0.06,0.06,0.5,0.5,0.1,0.5,0.03,0.00,0.03,0.03,0.03,Matches
@@ -2811,8 +2811,8 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G-PK,PK,PKatt
 2809,Ron-Robert Zieler,de GER,GK,Köln,de Bundesliga,31,1989,1,0,51,0.6,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 2810,Piotr Zieliński,pl POL,MF,Napoli,it Serie A,26,1994,36,32,2523,28.0,8,10,8,0,0,2,0,0.29,0.36,0.64,0.29,0.64,5.4,5.4,5.4,10.7,0.19,0.19,0.38,0.19,0.38,Matches
 2811,Oleksandr Zinchenko,ua UKR,DF,Manchester City,eng Premier League,23,1996,20,15,1478,16.4,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.7,0.7,1.3,2.1,0.04,0.08,0.13,0.04,0.13,Matches
-2812,Joshua Zirkzee,nl NED,FW,Bayern Munich,de Bundesliga,19,2001,3,1,92,1.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.4,0.4,0.2,0.5,0.35,0.17,0.52,0.35,0.52,Matches
-2813,Joshua Zirkzee,nl NED,FWMF,Parma,it Serie A,19,2001,4,0,113,1.3,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.1,0.1,0.2,0.3,0.05,0.18,0.23,0.05,0.23,Matches
+2812,Joshua Zirkzee,nl NED,FWMF,Parma,it Serie A,19,2001,4,0,113,1.3,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.1,0.1,0.2,0.3,0.05,0.18,0.23,0.05,0.23,Matches
+2813,Joshua Zirkzee,nl NED,FW,Bayern Munich,de Bundesliga,19,2001,3,1,92,1.0,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0.00,0.4,0.4,0.2,0.5,0.35,0.17,0.52,0.35,0.52,Matches
 2814,Hakim Ziyech,ma MAR,FWMF,Chelsea,eng Premier League,27,1993,23,15,1172,13.0,2,3,2,0,0,3,0,0.15,0.23,0.38,0.15,0.38,1.9,1.9,3.7,5.6,0.15,0.28,0.43,0.15,0.43,Matches
 2815,Jeroen Zoet,nl NED,GK,Spezia,it Serie A,29,1991,7,7,603,6.7,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,Matches
 2816,Kévin Zohi,ml MLI,FWMF,Strasbourg,fr Ligue 1,23,1996,23,2,436,4.8,2,0,2,0,0,0,0,0.41,0.00,0.41,0.41,0.41,1.2,1.2,0.1,1.3,0.25,0.02,0.27,0.25,0.27,Matches
