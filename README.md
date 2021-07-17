@@ -18,4 +18,4 @@ Statsbomb : https://statsbomb.com/
 
 **Sample** : Top 20 CM profile players from EPL under or at the age of 30 (20/21, stats p90).
 
-![image](https://user-images.githubusercontent.com/14120777/125809221-963ebdea-c7b0-4503-ba2c-63d451525c1a.png)
+![image](https://user-images.githubusercontent.com/14120777/126031086-44781317-889b-48c0-ae0c-56a7a881dc8c.png)
