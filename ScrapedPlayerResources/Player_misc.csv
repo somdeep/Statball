@@ -287,7 +287,7 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,90s,CrdY,CrdR,2CrdY,Fls,Fld,Off,Crs,Int
 285,Jóhann Berg Guðmundsson,is ISL,MF,Burnley,eng Premier League,29,1990,15.1,2,0,0,11,16,2,24,17,14,0,0,0,108,19,31,38.0,Matches
 286,Sander Berge,no NOR,MF,Sheffield Utd,eng Premier League,22,1998,12.4,4,0,0,14,4,2,18,3,16,0,0,0,101,16,15,51.6,Matches
 287,Steven Bergwijn,nl NED,FWMF,Tottenham,eng Premier League,22,1997,13.4,3,0,0,20,16,1,12,12,10,1,0,0,80,2,16,11.1,Matches
-288,Valon Berisha,xk KVX,MF,Reims,fr Ligue 1,27,1993,18.3,2,0,0,16,16,1,20,17,27,0,0,0,145,14,13,51.9,Matches
+288,Valon Berisha,xk KVX,MF,Reims,fr Ligue 1,27,1993,18.3,2,0,0,16,16,1,20,17,27,0,0,0,146,13,13,50.0,Matches
 289,Bernard,br BRA,MFFW,Everton,eng Premier League,27,1992,5.1,2,0,0,6,7,0,9,7,4,0,0,0,59,0,0,,Matches
 290,Federico Bernardeschi,it ITA,DFMF,Juventus,it Serie A,26,1994,10.8,3,0,0,13,18,2,42,13,5,0,0,0,77,8,8,50.0,Matches
 291,Bernardo,br BRA,DFMF,Brighton,eng Premier League,25,1995,2.3,0,0,0,1,1,0,4,0,5,0,0,0,12,5,6,45.5,Matches
@@ -500,7 +500,7 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,90s,CrdY,CrdR,2CrdY,Fls,Fld,Off,Crs,Int
 498,Kwon Chang-hoon,kr KOR,MFFW,Freiburg,de Bundesliga,26,1994,2.4,2,0,0,4,5,1,4,5,2,0,0,0,12,5,5,50.0,Matches
 499,Gaëtan Charbonnier,fr FRA,MFFW,Brest,fr Ligue 1,31,1988,17.4,4,0,0,26,21,10,18,10,18,0,0,0,88,31,49,38.8,Matches
 500,Brendan Chardonnet,fr FRA,DF,Brest,fr Ligue 1,25,1994,30.2,3,1,0,32,24,0,6,46,33,0,1,0,219,82,47,63.6,Matches
-501,Xavier Chavalerin,fr FRA,MF,Reims,fr Ligue 1,29,1991,28.3,8,0,0,38,6,3,13,36,64,0,0,0,196,14,17,45.2,Matches
+501,Xavier Chavalerin,fr FRA,MF,Reims,fr Ligue 1,29,1991,28.3,8,0,0,38,6,3,13,36,63,0,0,0,196,14,17,45.2,Matches
 502,Pape Cheikh Diop,sn SEN,MF,Dijon,fr Ligue 1,22,1997,12.1,5,0,0,42,24,0,1,6,17,1,0,0,127,11,14,44.0,Matches
 503,Chema,es ESP,DFMF,Getafe,es La Liga,28,1992,6.2,3,1,0,13,3,0,0,7,4,0,0,0,66,10,15,40.0,Matches
 504,Rayan Cherki,fr FRA,FWMF,Lyon,fr Ligue 1,16,2003,7.8,1,1,0,16,20,2,10,4,5,1,0,0,44,1,9,10.0,Matches
@@ -1125,7 +1125,7 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,90s,CrdY,CrdR,2CrdY,Fls,Fld,Off,Crs,Int
 1123,Eduardo Henrique,br BRA,MF,Crotone,it Serie A,25,1995,10.3,4,0,0,18,14,1,1,10,2,0,0,0,83,12,18,40.0,Matches
 1124,Luis Henrique,br BRA,DFFW,Marseille,fr Ligue 1,18,2001,7.5,0,0,0,2,5,8,30,8,2,0,0,0,56,3,1,75.0,Matches
 1125,Christophe Hérelle,mq MTQ,DF,Brest,fr Ligue 1,27,1992,15.3,4,0,0,18,16,1,2,16,10,0,0,1,138,43,20,68.3,Matches
-1126,Jérôme Hergault,fr FRA,DF,Lorient,fr Ligue 1,34,1986,18.1,0,0,0,18,26,5,29,25,24,0,0,0,131,25,26,49.0,Matches
+1126,Jérôme Hergault,fr FRA,DF,Lorient,fr Ligue 1,34,1986,18.1,0,0,0,18,26,5,29,25,24,0,0,0,131,25,25,50.0,Matches
 1127,Mario Hermoso,es ESP,DF,Atlético Madrid,es La Liga,25,1995,28.6,6,0,0,29,30,3,6,34,37,0,0,1,237,38,34,52.8,Matches
 1128,Aridane Hernández,gq EQG,DF,Osasuna,es La Liga,31,1989,22.5,3,1,0,21,20,0,2,44,21,0,0,0,231,80,32,71.4,Matches
 1129,Lucas Hernández,fr FRA,DF,Bayern Munich,de Bundesliga,24,1996,17.7,4,0,0,16,31,0,41,20,27,1,1,0,181,49,19,72.1,Matches
@@ -1394,7 +1394,7 @@ Rk,Player,Nation,Pos,Squad,Comp,Age,Born,90s,CrdY,CrdR,2CrdY,Fls,Fld,Off,Crs,Int
 1392,Fabian Kunze,de GER,MF,Arminia,de Bundesliga,22,1998,14.1,6,0,0,36,26,0,3,15,27,0,0,0,187,48,15,76.2,Matches
 1393,Jasmin Kurtić,si SVN,MF,Parma,it Serie A,31,1989,30.4,5,0,0,46,37,3,48,33,34,0,0,0,238,36,28,56.3,Matches
 1394,Layvin Kurzawa,fr FRA,DF,Paris S-G,fr Ligue 1,27,1992,14.2,4,1,0,33,7,1,39,27,16,1,0,0,137,29,15,65.9,Matches
-1395,Dereck Kutesa,ch SUI,MFFW,Reims,fr Ligue 1,22,1997,7.6,2,0,0,13,16,5,14,6,9,0,0,0,28,8,9,47.1,Matches
+1395,Dereck Kutesa,ch SUI,MFFW,Reims,fr Ligue 1,22,1997,7.6,2,0,0,13,16,5,14,6,9,0,0,0,27,8,9,47.1,Matches
 1396,Ahmed Kutucu,tr TUR,FWMF,Schalke 04,de Bundesliga,20,2000,1.2,1,0,0,2,1,0,2,0,0,0,0,0,4,5,6,45.5,Matches
 1397,Enock Kwateng,fr FRA,DF,Bordeaux,fr Ligue 1,23,1997,11.5,4,0,0,15,17,0,14,26,14,0,0,0,112,23,13,63.9,Matches
 1398,Antonino La Gumina,it ITA,FW,Sampdoria,it Serie A,24,1996,3.8,0,0,0,5,6,2,4,4,3,0,0,0,13,11,30,26.8,Matches
