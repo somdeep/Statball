@@ -250,6 +250,7 @@ namespace Statball
             if (string.IsNullOrEmpty(playerName)) return string.Empty;
 
             name = stats.Keys.First(n => n.Contains(playerName, StringComparison.InvariantCultureIgnoreCase));
+            
             return name;
         }
 
