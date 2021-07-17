@@ -14,3 +14,4 @@ Blocks_Clr
 Performance_Recov
 Aerial Duels_Won
 Carries_PrgDist
+Long_Cmp
