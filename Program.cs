@@ -50,6 +50,11 @@
                 }
             }
 
+            fileArray = Directory.GetFiles(@"ScrapedSquadResources");
+            SquadReader squadReader = new SquadReader(fileArray, isp90:true);
+
+            squadReader.TopSquads(outputFile:"Results/TopSquads.csv");
+
         }
     }
 }
