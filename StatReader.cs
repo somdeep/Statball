@@ -93,7 +93,7 @@ namespace Statball
         public void LoadMaxStats(double minimumFilter)
         {
             maxStats = new Dictionary<string, double>();
-            
+
             foreach (var player in stats.Values)
             {
                 double _90s = Double.Parse(player["_90s"]);
