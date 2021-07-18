@@ -23,7 +23,7 @@ Visualizations created using Tableau Public : https://public.tableau.com/
 
 ## **Visualization and Scouting Samples** : 
 
-Heavily Involved Creators, and Messi in a league of his own (20/21, minimum 20 90s).
+**Visualization 1** : Heavily Involved Creators, and Messi in a league of his own (20/21, minimum 20 90s).
 
 ![europecreatorsandteams](https://user-images.githubusercontent.com/14120777/126045267-0c9dd978-b226-4f52-b316-73e26296a03f.png)
 
