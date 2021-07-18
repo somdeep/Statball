@@ -6,6 +6,8 @@ Fbref : https://fbref.com/en/comps/Big5/Big-5-European-Leagues-Stats
 
 Statsbomb : https://statsbomb.com/
 
+Visualizations created using Tableau Public : https://public.tableau.com/
+
 1. Built-In Data Scraper/ API to pull or scrape data from fbref and Statsbomb - using C# / webapp / web scraping
 2. Preferred position filtering
 3. Combined statscore value
