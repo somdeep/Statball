@@ -25,7 +25,6 @@ Statsbomb : https://statsbomb.com/
 
 
 
-
 **Sample 1** : Top 30 AM profile players from top 5 leagues (20/21, stats p90, minimum 20 90s).
 
 ![image](https://user-images.githubusercontent.com/14120777/126031154-3a13b672-dcb2-4dbf-9be7-5dae79295205.png)
@@ -37,19 +36,14 @@ Statsbomb : https://statsbomb.com/
 ![image](https://user-images.githubusercontent.com/14120777/126031086-44781317-889b-48c0-ae0c-56a7a881dc8c.png)
 
 
+**Prerequisite Installations** : Download and install .NET Core from here : https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net50
 
 **How to Run** : Download the project and run the **dotnet run** command as below : 
 
 ```
-dotnet run [-c|--configuration <CONFIGURATION>] [-f|--framework <FRAMEWORK>]
-    [--force] [--interactive] [--launch-profile <NAME>] [--no-build]
-    [--no-dependencies] [--no-launch-profile] [--no-restore]
-    [--project <PATH>] [-r|--runtime <RUNTIME_IDENTIFIER>]
-    [-v|--verbosity <LEVEL>] [[--] [application arguments]]
+dotnet run
 
 dotnet run -h|--help
 ```
-
-[]: https://docs.microsoft.com/en-us/nuget/consume-packages/package-restore#:~:text=Restore%20using%20the%20dotnet%20CLI%20Use%20the%20dotnet,this%20runs%20the%20same%20code%20as%20nuget%20restore.
-
+Follow steps here if needed : https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-run
 
