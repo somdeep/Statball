@@ -19,7 +19,9 @@ Statsbomb : https://statsbomb.com/
 
 
 
-**Visualizations** : Heavily Involved Creators, and Messi in a league of his own (20/21, stats p90, minimum 20 90s).
+## **Visualization and Scouting Samples** : 
+
+Heavily Involved Creators, and Messi in a league of his own (20/21, minimum 20 90s).
 
 ![europecreatorsandteams](https://user-images.githubusercontent.com/14120777/126045267-0c9dd978-b226-4f52-b316-73e26296a03f.png)
 
@@ -36,7 +38,12 @@ Statsbomb : https://statsbomb.com/
 ![image](https://user-images.githubusercontent.com/14120777/126031086-44781317-889b-48c0-ae0c-56a7a881dc8c.png)
 
 
-**Prerequisite Installations** : Download and install .NET Core from here : https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net50
+
+
+
+## **Prerequisite Installations** : 
+
+**Download and install .NET Core from here** : https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net50
 
 **How to Run** : Download the project and run the **dotnet run** command as below : 
 
