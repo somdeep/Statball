@@ -40,6 +40,7 @@ Statsbomb : https://statsbomb.com/
 
 **How to Run** : Download the project and run the **dotnet run** command as below : 
 
+```
 dotnet run [-c|--configuration <CONFIGURATION>] [-f|--framework <FRAMEWORK>]
     [--force] [--interactive] [--launch-profile <NAME>] [--no-build]
     [--no-dependencies] [--no-launch-profile] [--no-restore]
@@ -47,5 +48,8 @@ dotnet run [-c|--configuration <CONFIGURATION>] [-f|--framework <FRAMEWORK>]
     [-v|--verbosity <LEVEL>] [[--] [application arguments]]
 
 dotnet run -h|--help
-  
-https://docs.microsoft.com/en-us/nuget/consume-packages/package-restore#:~:text=Restore%20using%20the%20dotnet%20CLI%20Use%20the%20dotnet,this%20runs%20the%20same%20code%20as%20nuget%20restore.
+```
+
+[]: https://docs.microsoft.com/en-us/nuget/consume-packages/package-restore#:~:text=Restore%20using%20the%20dotnet%20CLI%20Use%20the%20dotnet,this%20runs%20the%20same%20code%20as%20nuget%20restore.
+
+
