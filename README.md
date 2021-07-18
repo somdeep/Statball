@@ -35,14 +35,6 @@ Heavily Involved Creators, and Messi in a league of his own (20/21, minimum 20 9
 
 
 
-**Sample 2** : Top 20 CM profile players from EPL under or at the age of 30 (20/21, stats p90, minimum 20 90s).
-
-![image](https://user-images.githubusercontent.com/14120777/126031086-44781317-889b-48c0-ae0c-56a7a881dc8c.png)
-
-
-
-
-
 ## **Prerequisite Installations** : 
 
 **Download and install .NET Core from here** : https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net50
