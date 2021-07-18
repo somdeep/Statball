@@ -1,0 +1,12 @@
+Expected_xA
+GCA_GCA
+Dribbles_Succ
+Expected_npxG
+Carries_CPA
+Touches_Att Pen
+Standard_SoT
+Performance_Gls
+Expected_xG
+Receiving_Prog
+Performance_PKwon
+Aerial Duels_Won

@@ -35,6 +35,7 @@
             statReader.ScoutPlayer(File.ReadAllLines("Profiles/AM.txt"), playerName: "", count: 30, position: "MF", LeagueFilter: "", TeamFilter: "", ageFilter: 99, minimumFilter: 20, outputFile: "Results/Best_AMs.csv");
             statReader.ScoutPlayer(File.ReadAllLines("Profiles/AM.txt"), playerName: "", count: 30, position: "MF", LeagueFilter: "eng", TeamFilter: "", ageFilter: 99, minimumFilter: 20, outputFile: "Results/Best_AMs_EPL.csv");
             statReader.ScoutPlayer(File.ReadAllLines("Profiles/AM.txt"), playerName: "", count: 20, position: "MF", LeagueFilter: "", TeamFilter: "", ageFilter: 23, minimumFilter: 20, outputFile: "Results/Best_u23_AMs.csv");
+            statReader.ScoutPlayer(File.ReadAllLines("Profiles/ST.txt"), playerName: "", count: 50, position: "FW", LeagueFilter: "", TeamFilter: "", ageFilter: 99, minimumFilter: 20, outputFile: "Results/Best_STs.csv");
 
             statReader.GenerateTableauData(File.ReadAllLines("Profiles/AM.txt"), playerName: "", count: 20, position: "MF", LeagueFilter: "", TeamFilter: "", ageFilter: 99, minimumFilter: 20, outputFile: "Results/Tableau_AMs.csv");
 
