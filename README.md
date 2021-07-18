@@ -21,7 +21,7 @@ Visualizations created using Tableau Public : https://public.tableau.com/
 
 
 
-## **Visualization and Scouting Samples** : 
+## **Visualization and Scouting Samples**
 
 **Visualization 1** : Heavily Involved Creators, and Messi in a league of his own (20/21, minimum 20 90s).
 
@@ -35,7 +35,7 @@ Visualizations created using Tableau Public : https://public.tableau.com/
 
 
 
-## **Prerequisite Installations** : 
+## **Prerequisite Installations**
 
 **Download and install .NET Core from here** : https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net50
 
