@@ -26,6 +26,7 @@
 
             string[] fileArray = Directory.GetFiles(@"ScrapedPlayerResources");
             StatReader statReader = new StatReader(fileArray, isp90: true);
+            Directory.CreateDirectory("Results");
 
             statReader.TopPlayers(statname: "Blocks_Int", count: 30, position: "MF", minimumFilter: 20, outputFile: "Results/top_players.csv");
             statReader.SimilarPlayers(File.ReadAllLines("Profiles/CM.txt"), playerName: "camavinga", count: 30, position: "MF", LeagueFilter: "eng", minimumFilter: 20, outputFile: "Results/similar_players.csv");
