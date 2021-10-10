@@ -263,7 +263,7 @@ namespace Statball
             Dictionary<string, string> player = (string.IsNullOrEmpty(playerName)) ? null : stats[playerName];
 
             var sortedDict = (from entry in stats
-                              where ((string.IsNullOrEmpty(position)) || entry.Value["_Pos"].Contains(position, StringComparison.InvariantCultureIgnoreCase))
+                              where ((string.IsNullOrEmpty(position)) || entry.Value["_Pos"].StartsWith(position, StringComparison.InvariantCultureIgnoreCase))
                                     && Double.Parse(entry.Value["_90s"]) >= minimumFilter
                                     && !playerName.Equals(entry.Value["_Player"])
                                     && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Contains(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
