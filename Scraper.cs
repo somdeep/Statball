@@ -12,11 +12,33 @@ namespace Statball
     {
         public void PlayerScrape(string statname = "passing")
         {
+            // var client = new MyWebClient();
+            // HtmlDocument doc = client.GetPage("https://fbref.com/en/comps/Big5/");
+
+            //This request will be sent with the cookies obtained from the page
+            // doc = client.GetPage("https://fbref.com/en/comps/Big5/2021-2022/passing/players/2021-2022-Big-5-European-Leagues-Stats");
+
             HtmlWeb web = new HtmlWeb();
-            HtmlDocument doc = web.Load($"https://fbref.com/en/comps/Big5/{statname}/players/Big-5-European-Leagues-Stats");
+            // string url = $"https://fbref.com/en/comps/Big5/2021-2022/passing/players/2021-2022-Big-5-European-Leagues-Stats#stats_passing";
+            string url = $"https://fbref.com/en/comps/Big5/{statname}/players/Big-5-European-Leagues-Stats#stats_{statname}";
+            url = statname == "standard" ? $"https://fbref.com/en/comps/Big5/stats/players/Big-5-European-Leagues-Stats#stats_{statname}" : url;
+            web.UseCookies = true;
+            web.PreRequest += request =>
+            {
+                request.CookieContainer = new System.Net.CookieContainer();
+                return true;
+            };
+            // var htmlDoc = web.Load(url);
+            // var outerHtml = htmlDoc.DocumentNode.OuterHtml;
+            // Assert.AreNotEqual("", outerHtml);
+            HtmlDocument doc = web.Load(url);
+            // HtmlDocument doc = web.Load($"https://fbref.com/en/comps/Big5/2021-2022/{statname}/players/2021-2022-Big-5-European-Leagues-Stats");
 
 
             if (statname == "stats") statname = "standard";
+            // statname = "standard";
+
+            var x = doc.DocumentNode.SelectNodes($"//table[@id='stats_{statname}']");
 
             List<string> overHeaderNames = doc.DocumentNode.SelectNodes($"//table[@id='stats_{statname}']//thead//tr")[0].ChildNodes.Where(n => n.Name == "th").Select(child => child.InnerText).ToList();
 
@@ -33,7 +55,7 @@ namespace Statball
             List<HtmlNodeCollection> playerNodes = doc.DocumentNode.SelectNodes($"//table[@id='stats_{statname}']//tbody//tr").Select(node => node.ChildNodes).ToList();
 
             int count = 0;
-            using (StreamWriter writer = new StreamWriter($"ScrapedPlayerResources/Player_{statname}.csv"))
+            using (StreamWriter writer = new StreamWriter($"ScrapedPlayerResources1/Player_{statname}.csv"))
             {
                 foreach (string name in overHeaderNames)
                 {
@@ -106,7 +128,7 @@ namespace Statball
             List<HtmlNodeCollection> squadNodes = doc.DocumentNode.SelectNodes($"//table[@id='stats_squads_{statname}_for']//tbody//tr").Select(node => node.ChildNodes).ToList();
 
             int count = 0;
-            using (StreamWriter writer = new StreamWriter($"ScrapedSquadResources/Squad_{statname}.csv"))
+            using (StreamWriter writer = new StreamWriter($"ScrapedSquadResources2/Squad_{statname}.csv"))
             {
                 foreach (string name in overHeaderNames)
                 {

@@ -3,7 +3,7 @@ Pressures_Succ
 Total_PrgDist
 Total_Cmp
 Carries_Prog
-Expected_xA
+Expected_xAG
 Long_Prog
 Long_1/3
 SCA_SCA

@@ -1,6 +1,6 @@
 _Poss
 Total_Cmp
-Expected_xA
+Expected_xAG
 Long_Prog
 Long_1/3
 Long_PPA

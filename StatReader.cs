@@ -133,7 +133,7 @@ namespace Statball
                                     && Double.Parse(entry.Value["_90s"]) >= minimumFilter
                                     && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Contains(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
                                     && ((string.IsNullOrEmpty(LeagueFilter)) || entry.Value["_Comp"].Contains(LeagueFilter, StringComparison.InvariantCultureIgnoreCase))
-                                    && Double.Parse(entry.Value["_Age"]) <= ageFilter
+                                    && Double.Parse(entry.Value["_Age"].Substring(0, 2)) <= ageFilter
                               orderby Per90FilteredValue(entry.Value, statname)
                               descending
                               select entry)
@@ -157,7 +157,7 @@ namespace Statball
 
         public Double Per90FilteredValue(Dictionary<string, string> entry, string statname)
         {
-            if (string.IsNullOrEmpty(entry[statname])) return 0.0;
+            if (!entry.ContainsKey(statname) || string.IsNullOrEmpty(entry[statname])) return 0.0;
 
             if (Double.TryParse(entry[statname], out Double value))
             {
@@ -193,7 +193,7 @@ namespace Statball
                                     && !playerName.Equals(entry.Value["_Player"])
                                     && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Contains(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
                                     && ((string.IsNullOrEmpty(LeagueFilter)) || entry.Value["_Comp"].Contains(LeagueFilter, StringComparison.InvariantCultureIgnoreCase))
-                                    && Double.Parse(entry.Value["_Age"]) <= ageFilter
+                                    && Double.Parse(entry.Value["_Age"].Substring(0, 2)) <= ageFilter
                               orderby CosineSimilarity(statnames, player, entry.Value)
                               ascending
                               select entry)
@@ -268,7 +268,7 @@ namespace Statball
                                     && !playerName.Equals(entry.Value["_Player"])
                                     && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Contains(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
                                     && ((string.IsNullOrEmpty(LeagueFilter)) || entry.Value["_Comp"].Contains(LeagueFilter, StringComparison.InvariantCultureIgnoreCase))
-                                    && Double.Parse(entry.Value["_Age"]) <= ageFilter
+                                    && Double.Parse(entry.Value["_Age"].Substring(0, 2)) <= ageFilter
                                     && ComputedScore(statnames, player, entry.Value) >= 0.0
                               orderby ComputedScore(statnames, player, entry.Value)
                               descending
@@ -303,7 +303,7 @@ namespace Statball
             {
                 if (player != null) playerScore += (Per90FilteredValue(player, statname) / maxStats[statname]);
 
-                potentialScore += (Per90FilteredValue(entry, statname) / maxStats[statname]);
+                potentialScore += maxStats.ContainsKey(statname) ? Per90FilteredValue(entry, statname) / maxStats[statname] : 0;
             }
 
             potentialScore = potentialScore - playerScore;
@@ -323,7 +323,7 @@ namespace Statball
                                     && !playerName.Equals(entry.Value["_Player"])
                                     && ((string.IsNullOrEmpty(TeamFilter)) || entry.Value["_Squad"].Contains(TeamFilter, StringComparison.InvariantCultureIgnoreCase))
                                     && ((string.IsNullOrEmpty(LeagueFilter)) || entry.Value["_Comp"].Contains(LeagueFilter, StringComparison.InvariantCultureIgnoreCase))
-                                    && Double.Parse(entry.Value["_Age"]) <= ageFilter
+                                    && Double.Parse(entry.Value["_Age"].Substring(0, 2)) <= ageFilter
                                     && ComputedScore(statnames, player, entry.Value) >= 0.0
                               orderby ComputedScore(statnames, player, entry.Value)
                               descending

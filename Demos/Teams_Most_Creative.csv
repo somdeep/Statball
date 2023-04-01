@@ -1,21 +1,21 @@
-League,Club,Statscore
-de Bundesliga, Bayern Munich,15.90801057894778
-es La Liga, Barcelona,15.573645706093426
-eng Premier League, Manchester City,15.159937995607846
-it Serie A, Atalanta,14.465908464505443
-fr Ligue 1, Paris S-G,14.447594880208909
-de Bundesliga, Dortmund,14.159302018241183
-eng Premier League, Liverpool,13.82890037097204
-fr Ligue 1, Lyon,13.729930974338238
-it Serie A, Napoli,13.384425799955329
-de Bundesliga, RB Leipzig,13.291408093468545
-it Serie A, Juventus,13.270365596970679
-es La Liga, Real Madrid,13.11001200496019
-eng Premier League, Chelsea,12.602969772285528
-de Bundesliga, Leverkusen,12.175830898433247
-eng Premier League, Manchester Utd,12.160968823623355
-it Serie A, Inter,12.14402913271264
-it Serie A, Roma,11.915668538763743
-de Bundesliga, Eint Frankfurt,11.709244567152613
-it Serie A, Milan,11.596016660281238
-it Serie A, Sassuolo,11.515592893105138
+League             ,Club            ,Statscore
+de Bundesliga      ,Bayern Munich   ,15.90801057894778
+es La Liga         ,Barcelona       ,15.573645706093426
+eng Premier League ,Manchester City ,15.159937995607846
+it Serie A         ,Atalanta        ,14.465908464505443
+fr Ligue 1         ,Paris S-G       ,14.447594880208909
+de Bundesliga      ,Dortmund        ,14.159302018241183
+eng Premier League ,Liverpool       ,13.82890037097204
+fr Ligue 1         ,Lyon            ,13.729930974338238
+it Serie A         ,Napoli          ,13.384425799955329
+de Bundesliga      ,RB Leipzig      ,13.291408093468545
+it Serie A         ,Juventus        ,13.270365596970679
+es La Liga         ,Real Madrid     ,13.11001200496019
+eng Premier League ,Chelsea         ,12.602969772285528
+de Bundesliga      ,Leverkusen      ,12.175830898433247
+eng Premier League ,Manchester Utd  ,12.160968823623355
+it Serie A         ,Inter           ,12.14402913271264
+it Serie A         ,Roma            ,11.915668538763743
+de Bundesliga      ,Eint Frankfurt  ,11.709244567152613
+it Serie A         ,Milan           ,11.596016660281238
+it Serie A         ,Sassuolo        ,11.515592893105138

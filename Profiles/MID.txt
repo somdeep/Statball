@@ -1,0 +1,47 @@
+Total_Cmp
+Expected_xAG
+Long_Prog
+Long_1/3
+Long_PPA
+Long_KP
+SCA_SCA
+GCA_GCA
+Dribbles_Succ
+Expected_npxG
+Carries_1/3
+Carries_CPA
+Touches_Att 3rd
+Touches_Att Pen
+Standard_SoT
+GCA Types_Drib
+Tackles_TklW
+Pressures_Succ
+Total_PrgDist
+Total_Cmp
+Carries_Prog
+Expected_xAG
+Long_Prog
+Long_1/3
+SCA_SCA
+Dribbles_Succ
+Carries_PrgDist
+Expected_npxG
+Carries_1/3
+Vs Dribbles_Tkl
+Tackles_TklW
+Pressures_Succ
+Vs Dribbles_Tkl
+Total_PrgDist
+Total_Cmp
+Carries_Prog
+Blocks_Int
+Long_Prog
+Long_1/3
+Blocks_Blocks
+Blocks_Sh
+Pressures_Def 3rd
+Blocks_Clr
+Performance_Recov
+Aerial Duels_Won
+Carries_PrgDist
+Long_Cmp
