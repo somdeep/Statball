@@ -301,7 +301,7 @@ namespace Statball
 
             foreach (string statname in statnames)
             {
-                if (player != null) playerScore += (Per90FilteredValue(player, statname) / maxStats[statname]);
+                if (player != null && maxStats.ContainsKey(statname)) playerScore += (Per90FilteredValue(player, statname) / maxStats[statname]);
 
                 potentialScore += maxStats.ContainsKey(statname) ? Per90FilteredValue(entry, statname) / maxStats[statname] : 0;
             }

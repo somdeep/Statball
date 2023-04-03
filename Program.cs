@@ -29,8 +29,8 @@
             Directory.CreateDirectory("2023Results");//result directory creation
 
             statReader.TopPlayers(statname: "Blocks_Int", count: 30, position: "MF", minimumFilter: 20, outputFile: "2023Results/top_players.csv");
-            // statReader.SimilarPlayers(File.ReadAllLines("Profiles/DM.txt"), playerName: "pogba", count: 30, position: "MF", LeagueFilter: "", minimumFilter: 18, outputFile: "2023Results/similar_players.csv");
-            statReader.ScoutPlayer(File.ReadAllLines("Profiles/ST.txt"), playerName: "", count: 50, position: "FW", LeagueFilter: "", TeamFilter: "", ageFilter: 35, minimumFilter: 15, outputFile: "2023Results/scout_players.csv");
+            statReader.SimilarPlayers(File.ReadAllLines("Profiles/MID.txt"), playerName: "frenkie", count: 30, position: "MF", LeagueFilter: "", minimumFilter: 15, outputFile: "2023Results/similar_players.csv");
+            statReader.ScoutPlayer(File.ReadAllLines("Profiles/MID.txt"), playerName: "frenkie", count: 50, position: "MF", LeagueFilter: "", TeamFilter: "", ageFilter: 28, minimumFilter: 15, outputFile: "2023Results/scout_players.csv");
             statReader.ScoutPlayer(File.ReadAllLines("Profiles/DM.txt"), playerName: "", count: 30, position: "MF", LeagueFilter: "eng", TeamFilter: "", ageFilter: 30, minimumFilter: 18, outputFile: "2023Results/Best_u30_DMs_EPL.csv");
             // statReader.ScoutPlayer(File.ReadAllLines("Profiles/DM.txt"), playerName: "", count: 30, position: "MF", LeagueFilter: "", TeamFilter: "", ageFilter: 40, minimumFilter: 20, outputFile: "2023Results/Best_u23_DMs.csv");
             statReader.ScoutPlayer(File.ReadAllLines("Profiles/AM.txt"), playerName: "", count: 30, position: "MF", LeagueFilter: "", TeamFilter: "", ageFilter: 40, minimumFilter: 18, outputFile: "2023Results/Best_AMs.csv");
