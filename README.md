@@ -1,4 +1,4 @@
-# Statball [![build passing](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)]() [![dotnet core](https://img.shields.io/badge/dotnet-5.0-blue.svg?style=flat)](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=net50)
+# Statball [![build passing](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)]() [![dotnet core](https://img.shields.io/badge/dotnet-6.0-blue.svg?style=flat)](https://learn.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60)
 
 
 Statball - Football (soccer) stats analyser from top 5 european leagues with data obtained from Fbref and Statsbomb.
