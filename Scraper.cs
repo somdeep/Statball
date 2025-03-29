@@ -55,7 +55,7 @@ namespace Statball
             List<HtmlNodeCollection> playerNodes = doc.DocumentNode.SelectNodes($"//table[@id='stats_{statname}']//tbody//tr").Select(node => node.ChildNodes).ToList();
 
             int count = 0;
-            using (StreamWriter writer = new StreamWriter($"ScrapedPlayerResources1/Player_{statname}.csv"))
+            using (StreamWriter writer = new StreamWriter($"ScrapedPlayerResourcesLatest/Player_{statname}.csv"))
             {
                 foreach (string name in overHeaderNames)
                 {
