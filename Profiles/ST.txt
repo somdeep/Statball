@@ -1,13 +1,28 @@
-Expected_xAG
 GCA_GCA
 Dribbles_Succ
 Expected_npxG
+Expected_npxG
+Expected_npxG
+Carries_CPA
 Carries_CPA
 Touches_Att Pen
+Touches_Att Pen
+Touches_Att 3rd
+Standard_SoT
 Standard_SoT
 Performance_Gls
+Performance_Gls
+Expected_xG
+Expected_xG
 Expected_xG
 Receiving_Prog
 Performance_PKwon
 Aerial Duels_Won
+Aerial Duels_Won%
 Standard_Sh
+Tackles_Att 3rd
+Total_Cmp%
+Standard_G/Sh
+Standard_G/Sh
+Expected_npxG/Sh
+Expected_npxG/Sh

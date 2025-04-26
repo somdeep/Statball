@@ -1,16 +1,35 @@
 Total_Cmp
 Expected_xAG
+Expected_xG
+Expected_npxG
 Long_Prog
 Long_1/3
 Long_PPA
 Long_KP
 SCA_SCA
+SCA_SCA
+GCA_GCA
 GCA_GCA
 Dribbles_Succ
 Expected_npxG
 Carries_1/3
 Carries_CPA
+Carries_Prgc
+Carries_PrgDist
 Touches_Att 3rd
 Touches_Att Pen
 Standard_SoT
 GCA Types_Drib
+Performance_Gls
+Performance_Ast
+Progression_PrgC
+Progression_PrgP
+Progression_PrgR
+Total_PrgDist
+Expected_KP
+Expected_PPA
+Expected_CrsPA
+Expected_PrgP
+Tackles_Att 3rd
+Take-Ons_Succ
+Receiving_PrgR
